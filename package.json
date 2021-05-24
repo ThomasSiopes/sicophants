@@ -1,0 +1,16 @@
+{
+  "name": "dom-based-quote-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "require.js": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node GENERATOR_QUOTE.js && node GENERATOR_AUTHOR.js && node GENERATOR_TOPIC.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
