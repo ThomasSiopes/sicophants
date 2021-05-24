@@ -92,6 +92,11 @@ body {
     color: #fc5011!important;
 }
 
+.nav-link {
+    /* padding-left: 10px!important; */
+    text-align: center;
+}
+
 .quote-text {
     font-size: 25px;
 }
