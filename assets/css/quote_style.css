@@ -1,5 +1,4 @@
-.author_attribution {
-    font-size: small;
+.author-attribution {
     font-weight: bold;
 }
 
@@ -9,7 +8,7 @@
     width: 32px;
 }
 
-.main-author_attribution .author_attribution {
+.main-author_attribution .author-attribution {
     font-size: 14px;
     font-weight: bold;
 }

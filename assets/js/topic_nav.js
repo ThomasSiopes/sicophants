@@ -11,7 +11,7 @@ function fillAuthorList() {
         newLink = document.createElement("a");
 
         newLink.textContent = topicArray[i];
-        newLink.href="./topic-pages/topic" + (topicArray[i].replace(/\s/g, '')) + ".html";
+        newLink.href="./topic-pages/topic_" + (topicArray[i].replace(/\s/g, '')) + ".html";
 
         newTopicName.appendChild(newLink);
         topicList.appendChild(newTopicName);

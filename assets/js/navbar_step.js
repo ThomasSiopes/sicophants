@@ -1,4 +1,4 @@
-let navbar = document.querySelector("#nav-bar");
+const navbar = document.querySelector("#nav-bar");
 
 function generateNavbar() {
     var newNav = document.createElement("nav");
