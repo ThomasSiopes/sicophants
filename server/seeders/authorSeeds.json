@@ -1,0 +1,10 @@
+[
+    {
+        "name": "author name 1",
+        "htmlName": "Author name but with no capitalization, spaces, or special characters"
+    },
+    {
+        "name": "author name 2",
+        "htmlName": "Author name but with no capitalization, spaces, or special characters"
+    }
+]
