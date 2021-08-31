@@ -3,5 +3,10 @@
         "quoteText": "Actual quote",
         "authorName": "author name 1",
         "topics": ["topic name 1", "topic name 2"]
+    },
+    {
+        "quoteText": "Actual quote 2 test",
+        "authorName": "author name 2",
+        "topics": ["topic name 2"]
     }
 ]
