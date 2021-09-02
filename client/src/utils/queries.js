@@ -42,9 +42,23 @@ export const QUERY_AUTHOR_ALL = gql`
     }
 `;
 
-export const QUERY_TOPIC = gql`
-    query topic($name: String) {
-        topic(name: $name) {
+export const QUERY_TOPIC_NAME = gql`
+    query topicName($name: String) {
+        topicName(name: $name) {
+            _id
+            name
+            quotes {
+                _id
+                quoteText
+                topics
+            }
+        }
+    }
+`;
+
+export const QUERY_TOPIC_ID = gql`
+    query topicID($topicId: ID!) {
+        topicID(topicId: $topicId) {
             _id
             name
             quotes {

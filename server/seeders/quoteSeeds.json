@@ -1,12 +1,287 @@
 [
     {
-        "quoteText": "Actual quote",
-        "authorName": "author name 1",
-        "topics": ["topic name 1", "topic name 2"]
+        "quoteText": "A rat knows the way of other rats.",
+        "authorName": "African Proverb",
+        "topics": ["Finks"]
     },
     {
-        "quoteText": "Actual quote 2 test",
-        "authorName": "author name 2",
-        "topics": ["topic name 2"]
+        "quoteText": "A speaker of truth has no friends.",
+        "authorName": "African Proverb",
+        "topics": ["Truth Fairies"]
+    },
+    {
+        "quoteText": "Only a fool tests the depth of the water with both feet.",
+        "authorName": "African Proverb",
+        "topics": []
+    },
+    {
+        "quoteText": "Evil knows where evil sleeps.",
+        "authorName": "African Proverb",
+        "topics": ["Wickedness"]
+    },
+    {
+        "quoteText": "Not to know is bad; not to wish to know is worse.",
+        "authorName": "African Proverb",
+        "topics": ["Traditionalists"]
+    },
+    {
+        "quoteText": "A hunter who has only one arrow does not shoot with careless aim.",
+        "authorName": "African Proverb",
+        "topics": ["Efficiency"]
+    },
+    {
+        "quoteText": "The ax forgets; the tree remembers.",
+        "authorName": "African Proverb",
+        "topics": ["Amnesiacs"]
+    },
+    {
+        "quoteText": "Smooth seas do not make skillful sailors.",
+        "authorName": "African Proverb",
+        "topics": ["Challenge"]
+    },
+    {
+        "quoteText": "If there is no enemy within, the enemy outside can do us no harm.",
+        "authorName": "African Proverb",
+        "topics": ["Self-Approval"]
+    },
+    {
+        "quoteText": "Crowning a clown won't make him a king.",
+        "authorName": "Albanian Proverb",
+        "topics": ["Idolatry"]
+    },
+    {
+        "quoteText": "The wolf loves the fog.",
+        "authorName": "Albanian Proverb",
+        "topics": ["Roguery"]
+    },
+    {
+        "quoteText": "Advice would always be more acceptable if it didn’t conflict with our plans.",
+        "authorName": "American Proverb",
+        "topics": []
+    },
+    {
+        "quoteText": "The receiver is as bad as the thief.",
+        "authorName": "American Proverb",
+        "topics": ["Crime & Punishment"]
+    },
+    {
+        "quoteText": "You can’t unscramble an egg.",
+        "authorName": "American Proverb",
+        "topics": ["Futility"]
+    },
+    {
+        "quoteText": "If you plant corn, you get corn.",
+        "authorName": "American Proverb",
+        "topics": ["Galatians 6:7"]
+    },
+    {
+        "quoteText": "If our foresight were as good as our hindsight, we would never err.",
+        "authorName": "American Proverb",
+        "topics": ["Hindsight"]
+    },
+    {
+        "quoteText": "When a man is going downhill, everybody gives him a kick; when a man is going uphill, everybody gives him a lick.",
+        "authorName": "American Proverb",
+        "topics": ["Bandwagons & Fair-Weather"]
+    },
+    {
+        "quoteText": "Mules don't kick according to any rules.",
+        "authorName": "American Proverb",
+        "topics": ["Hecklers"]
+    },
+    {
+        "quoteText": "It is not enough for a gardener to love flowers.  He must also hate weeds.",
+        "authorName": "American Proverb",
+        "topics": ["Duty"]
+    },
+    {
+        "quoteText": "Few enjoy money, because they can't get enough.",
+        "authorName": "American Proverb",
+        "topics": ["Greed"]
+    },
+    {
+        "quoteText": "Mercy to the criminal may be cruelty to the people.",
+        "authorName": "Arab Proverb",
+        "topics": ["Aiders & Abettors "]
+    },
+    {
+        "quoteText": "Greed lessens what is gathered.",
+        "authorName": "Arabian Proverb",
+        "topics": ["Greed"]
+    },
+    {
+        "quoteText": "Excuses are always mixed with lies.",
+        "authorName": "Arabian Proverb",
+        "topics": []
+    },
+    {
+        "quoteText": "On the day of victory, no one is tired.",
+        "authorName": "Arabian Proverb",
+        "topics": ["Accomplishment"]
+    },
+    {
+        "quoteText": "Nobody considers himself as contemptible.",
+        "authorName": "Arabian Proverb",
+        "topics": ["Rose-Colored Mirrors"]
+    },
+    {
+        "quoteText": "Riches disclose bad qualities that are concealed by poverty.",
+        "authorName": "Arabian Proverb",
+        "topics": ["High Society"]
+    },
+    {
+        "quoteText": "Who gives not thanks to men gives not thanks to God.",
+        "authorName": "Arabian Proverb",
+        "topics": ["Ingrates"]
+    },
+    {
+        "quoteText": "You won’t gain knowledge by drinking ink.",
+        "authorName": "Arabian Proverb",
+        "topics": ["Scholarship"]
+    },
+    {
+        "quoteText": "Adversity tries virtue.",
+        "authorName": "Arabian Proverb",
+        "topics": ["Adversity"]
+    },
+    {
+        "quoteText": "An idle person is the devil’s playfellow.",
+        "authorName": "Arabian Proverb",
+        "topics": ["Deadbeats"]
+    },
+    {
+        "quoteText": "It is good to know the truth, but it is better to speak of palm trees.",
+        "authorName": "Arabic Proverb",
+        "topics": []
+    },
+    {
+        "quoteText": "Better a thousand enemies outside the tent than one within.",
+        "authorName": "Arabian Proverb",
+        "topics": ["Malcontents"]
+    },
+    {
+        "quoteText": "A friend is known when needed.",
+        "authorName": "Arabian Proverb",
+        "topics": ["Friendship"]
+    },
+    {
+        "quoteText": "Advice given in the midst of a crowd is loathsome.",
+        "authorName": "Arabic Proverb",
+        "topics": ["Praise Publicly", "Advise Privately"]
+    },
+    {
+        "quoteText": "Force against force equals more force.",
+        "authorName": "Ashanti Proverb",
+        "topics": ["Force & Violence"]
+    },
+    {
+        "quoteText": "A poor man has no friends.",
+        "authorName": "Ashanti Proverb",
+        "topics": ["Poverty"]
+    },
+    {
+        "quoteText": "A good case is not difficult to state.",
+        "authorName": "Ashanti Proverb",
+        "topics": ["Righteousness"]
+    },
+    {
+        "quoteText": "God is a good worker, but He loves to be helped.",
+        "authorName": "Basque Proverb",
+        "topics": ["Industry"]
+    },
+    {
+        "quoteText": "A drunk man's words are a sober man's thoughts",
+        "authorName": "Belgian Proverb",
+        "topics": []
+    },
+    {
+        "quoteText": "When the student is ready, the master will appear.",
+        "authorName": "Buddhist Proverb",
+        "topics": []
+    },
+    {
+        "quoteText": "We learn to walk by stumbling.",
+        "authorName": "Bulgarian Proverb",
+        "topics": ["Setbacks"]
+    },
+    {
+        "quoteText": "Too much talk will include errors.",
+        "authorName": "Burmese Proverb",
+        "topics": ["Verbosity"]
+    },
+    {
+        "quoteText": "A man with too much ambition cannot sleep in peace.",
+        "authorName": "Chadian Proverb",
+        "topics": ["Ambition"]
+    },
+    {
+        "quoteText": "A bird does not sing because it has an answer. It sings because it has a song.",
+        "authorName": "Chinese Proverb",
+        "topics": []
+    },
+    {
+        "quoteText": "The rich man expends money; the poor man, strength",
+        "authorName": "Chinese Proverb",
+        "topics": ["Pride"]
+    },
+    {
+        "quoteText": "One's good deeds are known only at home, one's bad deeds far away.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Impropriety"]
+    },
+    {
+        "quoteText": "He is a good fellow who can endure wrong.",
+        "authorName": "Chinese Proverb",
+        "topics": ["The High Road"]
+    },
+    {
+        "quoteText": "To say you have done good is not goodness; but to do good is.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Sanctimony"]
+    },
+    {
+        "quoteText": "The evidence of others is not comparable to personal experience; nor is \"I heard\" so good as \"I saw.\"",
+        "authorName": "Chinese Proverb",
+        "topics": ["First Hands"]
+    },
+    {
+        "quoteText": "If thine enemy offend thee, give his child a drum.",
+        "authorName": "Chinese Proverb",
+        "topics": []
+    },
+    {
+        "quoteText": "A dog in a kennel barks at his fleas; a dog hunting does not notice them. ",
+        "authorName": "Chinese Proverb",
+        "topics": ["Industry"]
+    },
+    {
+        "quoteText": "Give a man a fish and you feed him for a day. Teach man to fish and you feed him for a lifetime.",
+        "authorName": "Chinese Proverb",
+        "topics": []
+    },
+    {
+        "quoteText": "He that is afraid to shake the dice will never throw a six.",
+        "authorName": "Chinese Proverb",
+        "topics": []
+    },
+    {
+        "quoteText": "The best cure for drunkenness is while sober to see a drunken man.",
+        "authorName": "Chinese Proverb",
+        "topics": []
+    },
+    {
+        "quoteText": "A day of sorrow is longer than a month of joy.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Grief"]
+    },
+    {
+        "quoteText": "A word too little is better than a word too much.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Brevity"]
+    },
+    {
+        "quoteText": "Flurried men lack wisdom.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Haste"]
     }
 ]

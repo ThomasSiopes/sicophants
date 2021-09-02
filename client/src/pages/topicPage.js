@@ -4,15 +4,15 @@ import { useQuery } from '@apollo/client';
 import { Container } from "react-bootstrap"
 import "../assets/css/index.css"
 
-import { QUERY_AUTHOR_ID } from '../utils/queries';
+import { QUERY_TOPIC_ID } from '../utils/queries';
 
 import QuoteList from "../components/quoteList";
 
-function AuthorPage() {
-    const { authorId } = useParams();
+function TopicPage() {
+    const { topicId } = useParams();
 
-    const { loading, data } = useQuery(QUERY_AUTHOR_ID, {
-        variables: { authorId: authorId },
+    const { loading, data } = useQuery(QUERY_TOPIC_ID, {
+        variables: { topicId: topicId },
     })
 
     if(loading) {
@@ -21,21 +21,21 @@ function AuthorPage() {
 
     console.log(data);
 
-    const author = data.authorID;
+    const topic = data.topicID;
     
     return (
         <div>
             <Container className="auttopBody">
                 <p>
                     <Link className="breadCrumb redText" to={`/`}>Home</Link>{` > `}
-                    <Link className="breadCrumb redText" to={`/authorNavigation`}>Authors</Link>{` > `}
-                    <Link className="breadCrumb redText" to={`/author/${author._id}`}>{author.name}</Link>
+                    <Link className="breadCrumb redText" to={`/topicNavigation`}>Topics</Link>{` > `}
+                    <Link className="breadCrumb redText" to={`/topic/${topic._id}`}>{topic.name}</Link>
                 </p>
-                <p>Quotes from {author.name}</p>
-                <QuoteList quotes={author.quotes}/>
+                <p>Quotes from {topic.name}</p>
+                <QuoteList quotes={topic.quotes}/>
             </Container>
         </div>
     )
 }
 
-export default AuthorPage;
+export default TopicPage;

@@ -13,7 +13,7 @@ const topicSchema = new Schema({
     ],
     htmlName: {
       type: String,  
-      required: true,
+      required: false,
     },
 });
 

@@ -15,8 +15,11 @@ const resolvers = {
         topics: async () => {
             return Topic.find().populate('quotes');
         },
-        topic: async (parent, { name }) => {
+        topicName: async (parent, { name }) => {
             return Topic.findOne({ name }).populate('quotes');
+        },
+        topicID: async (parent, { topicId }) => {
+            return Topic.findOne({ _id: topicId }).populate('quotes');
         },
     }
 }

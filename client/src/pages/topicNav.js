@@ -3,19 +3,17 @@ import { Link } from "react-router-dom";
 import { useQuery } from '@apollo/client';
 import { Container } from "react-bootstrap"
 
-import { QUERY_AUTHOR_ALL } from '../utils/queries';
+import { QUERY_TOPIC_ALL } from '../utils/queries';
 
 
-function AuthorNav() {
-    const { loading, data } = useQuery(QUERY_AUTHOR_ALL);
+function TopicNav() {
+    const { loading, data } = useQuery(QUERY_TOPIC_ALL);
     
     if(loading) {
         return <div className="loadingPage">Loading...</div>;
     }
 
-    // console.log(data);
-
-    const authorList = data.authors;
+    const topicList = data.topics;
 
     const searchFunction = () => {
         let input, filter, ul, li, a, txtValue;
@@ -37,13 +35,14 @@ function AuthorNav() {
         <Container className="auttopBody">
             <p>
                 <Link className="breadCrumb redText" to={`/`}>Home</Link>{` > `}
-                <Link className="breadCrumb redText" to={`/authorNavigation`}>Author</Link>
+                <Link className="breadCrumb redText" to={`/topicNavigation`}>Topics</Link>
             </p>
+            
             <input type="text" id="myInput" onKeyUp={searchFunction} placeholder="Search for names..."></input>
             <ul id="myUL">
-                {authorList.map((author) => (
-                    <li key={author.name}>
-                        <Link to={`/author/${author._id}`}>{author.name}</Link>
+                {topicList.map((topic) => (
+                    <li key={topic.name}>
+                        <Link to={`/topic/${topic._id}`}>{topic.name}</Link>
                     </li>
                 ))}
             </ul>
@@ -51,4 +50,4 @@ function AuthorNav() {
     )
 }
 
-export default AuthorNav;
+export default TopicNav;

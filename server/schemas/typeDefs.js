@@ -26,7 +26,8 @@ const typeDefs = gql`
         authorName(name: String): Author
         authorID(authorId: ID): Author
         authors: [Author]
-        topic(name: String): Topic
+        topicName(name: String): Topic
+        topicID(topicId: ID): Topic
         topics: [Topic]
         quotes(name: String): [Quote]
         quote(quoteId: ID!): Quote

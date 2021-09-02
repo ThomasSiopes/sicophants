@@ -13,7 +13,7 @@ const authorSchema = new Schema({
     ],
     htmlName: {
       type: String,  
-      required: true,
+      required: false,
     },
 });
 

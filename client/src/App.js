@@ -7,8 +7,14 @@ import reactBootstrap from "react-bootstrap";
 
 import NavBar from "./components/navBar";
 import Footer from "./components/footer";
+import Home from "./pages/main";
 import AuthorNav from "./pages/authorNav";
 import AuthorPage from "./pages/authorPage";
+import TopicNav from "./pages/topicNav";
+import TopicPage from "./pages/topicPage";
+import SearchResult from "./pages/searchResult";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const httpLink = createHttpLink({
   uri: "/graphql",
@@ -37,16 +43,22 @@ function App() {
         <div className="container">
           <div className="mainBody">
             <Route exact path="/">
-              Test
+              <Home/>
             </Route>
             <Route exact path="/authorNavigation">
               <AuthorNav/>
+            </Route>
+            <Route exact path="/topicNavigation">
+              <TopicNav/>
             </Route>
             <Route exact path="/author/:authorId">
               <AuthorPage/>
             </Route>
             <Route exact path="/topic/:topicId">
-              <AuthorPage/>
+              <TopicPage/>
+            </Route>
+            <Route exact path="/search/:query">
+              <SearchResult/>
             </Route>
           </div>
         </div>
