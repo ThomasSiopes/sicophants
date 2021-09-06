@@ -12,6 +12,7 @@ import AuthorNav from "./pages/authorNav";
 import AuthorPage from "./pages/authorPage";
 import TopicNav from "./pages/topicNav";
 import TopicPage from "./pages/topicPage";
+import QuotePage from "./pages/quotePage";
 import SearchResult from "./pages/searchResult";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -56,6 +57,9 @@ function App() {
             </Route>
             <Route exact path="/topic/:topicId">
               <TopicPage/>
+            </Route>
+            <Route exact path="/quote/:quoteId">
+              <QuotePage/>
             </Route>
             <Route exact path="/search/:query">
               <SearchResult/>

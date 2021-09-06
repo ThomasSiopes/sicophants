@@ -52,7 +52,7 @@ const QuoteRandom = ({classif, amount}) => {
     return (
         <div>
             {scatterList.map((index) => ( 
-                <p key={index.name}><Link className="redText breadCrumb" to={`/`}>{index.name}</Link></p>
+                <p key={index.name}><Link className="redText breadCrumb" to={`/${classif}/${index._id}`}>{index.name}</Link></p>
             ))}
         </div>
     )

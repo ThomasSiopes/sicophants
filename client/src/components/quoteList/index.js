@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
-import { Row, Col, Card, Button } from "react-bootstrap"
+import { Row, Col, Card } from "react-bootstrap"
 
 import { QUERY_TOPIC_NAME } from '../../utils/queries';
 
@@ -26,9 +26,11 @@ const QuoteList = ({quotes}) => {
                 {quotes.map((quote) => (
                     <Col md={12} lg={6} xl={4} key={quote.quoteText}>
                         <Card className="mb-3">
-                            <Card.Body>
-                                <Card.Text>"{quote.quoteText}"</Card.Text>
-                            </Card.Body>
+                            <Link to={`/quote/${quote._id}`} className="noDecor">
+                                <Card.Body>
+                                    <Card.Text className="font-Kaisei">"{quote.quoteText}"</Card.Text>
+                                </Card.Body>
+                            </Link>
                             <Card.Footer className={"text-center"}>
                                 {quote.topics.map((topic) => (
                                     <button key={topic} className={"btn btn-red"}>{topic}</button>

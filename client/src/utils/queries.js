@@ -1,7 +1,7 @@
 import { gql } from "@apollo/client";
 
 export const QUERY_AUTHOR_NAME = gql`
-    query authorName($name: String) {
+    query authorName($name: String!) {
         authorName(name: $name) {
             _id
             name
@@ -43,7 +43,7 @@ export const QUERY_AUTHOR_ALL = gql`
 `;
 
 export const QUERY_TOPIC_NAME = gql`
-    query topicName($name: String) {
+    query topicName($name: String!) {
         topicName(name: $name) {
             _id
             name
@@ -84,4 +84,23 @@ export const QUERY_TOPIC_ALL = gql`
     }
 `;
 
-//Need info on how to query quotes
+export const QUERY_QUOTES_ALL = gql`
+    query getQuotes {
+        quotes {
+            _id
+            quoteText
+            authorName
+            topics
+        }
+    }
+`;
+
+export const QUERY_QUOTE_ID = gql`
+    query quoteID($quoteId: ID!) {
+        quoteID(quoteId: $quoteId) {
+            quoteText
+            authorName
+            topics
+        }
+    }
+`;

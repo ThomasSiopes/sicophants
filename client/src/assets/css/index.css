@@ -10,8 +10,22 @@ body {
     border-radius: .25rem!important;
 }
 
+.authorAttribute {
+    text-decoration: none;
+    color: #BF1919;
+    font-weight: bold;
+}
+
+.authorAttribute:hover {
+    color: #8F1313;
+}
+
 .bg-red {
     background-color: #8F1313;
+}
+
+.bigQuote {
+    font-size: 28px;
 }
 
 .btn-red {
@@ -28,6 +42,19 @@ body {
 
 .breadCrumb {
     text-decoration: none;
+}
+
+.font-Lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.font-Kaisei {
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.noDecor {
+    text-decoration: none;
+    color: #000;
 }
 
 .redText {

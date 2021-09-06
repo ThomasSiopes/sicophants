@@ -39,10 +39,11 @@ function TopicNav() {
             </p>
             
             <input type="text" id="myInput" onKeyUp={searchFunction} placeholder="Search for names..."></input>
+            <hr></hr>
             <ul id="myUL">
                 {topicList.map((topic) => (
                     <li key={topic.name}>
-                        <Link to={`/topic/${topic._id}`}>{topic.name}</Link>
+                        <Link className="redText" to={`/topic/${topic._id}`}>{topic.name}</Link>
                     </li>
                 ))}
             </ul>

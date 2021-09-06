@@ -29,8 +29,8 @@ const typeDefs = gql`
         topicName(name: String): Topic
         topicID(topicId: ID): Topic
         topics: [Topic]
-        quotes(name: String): [Quote]
-        quote(quoteId: ID!): Quote
+        quotes: [Quote]
+        quoteID(quoteId: ID!): Quote
     }
 `;
 
