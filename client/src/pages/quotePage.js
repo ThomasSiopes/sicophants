@@ -3,6 +3,7 @@ import { Link, Redirect, useParams } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 import { Container, Row, Card, Col } from "react-bootstrap"
 import "../assets/css/index.css"
+import TopicButton from "../components/topicButton"
 
 import { QUERY_QUOTE_ID, QUERY_AUTHOR_NAME } from '../utils/queries';
 
@@ -62,11 +63,13 @@ function QuotePage() {
                             </Card.Text>
                         </Card.Body>
                         <Card.Body className="text-center">
-                            Share Buttons
+                            <a href={`https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F${window.location.href}`} title="Share on Facebook" className="siteShare mx-2">F</a>
+                            <a href={`https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F${window.location.href}`} title="Share on Twitter" className="siteShare mx-2">T</a>
+                            <a href={`https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F${window.location.href}`} title="Share on Reddit" className="siteShare mx-2">R</a>
                         </Card.Body>
                         <Card.Footer className="text-center">
                             {quote.topics.map((topic) => (
-                                <Link key={topic} className="btn btn-red mx-1" to={`/`}>{topic}</Link>
+                                <TopicButton input={topic}></TopicButton>
                             ))}
                         </Card.Footer>
                     </Card>

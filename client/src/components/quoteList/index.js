@@ -1,24 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useQuery } from '@apollo/client';
 import { Row, Col, Card } from "react-bootstrap"
-
-import { QUERY_TOPIC_NAME } from '../../utils/queries';
+import TopicButton from "../topicButton"
 
 const QuoteList = ({quotes}) => {
     if(!quotes.length) return (<p>No Quotes...</p>);
 
     console.log(quotes);
-
-    const mapTopicLink = async (topic, event) => {
-        event.preventDefault();
-
-        try {
-            console.log(topic);
-        } catch (err) {
-            console.log("Error: " + err);
-        }
-    }
 
     return (
         <div>
@@ -31,9 +19,12 @@ const QuoteList = ({quotes}) => {
                                     <Card.Text className="font-Kaisei">"{quote.quoteText}"</Card.Text>
                                 </Card.Body>
                             </Link>
+                            <Card.Body>
+                                    <Link to={`/`} className="authorAttribute">{quote.authorName}</Link>
+                            </Card.Body>
                             <Card.Footer className={"text-center"}>
                                 {quote.topics.map((topic) => (
-                                    <button key={topic} className={"btn btn-red"}>{topic}</button>
+                                    <TopicButton key={topic} input={topic}></TopicButton>
                                 ))}
                             </Card.Footer>
                         </Card>

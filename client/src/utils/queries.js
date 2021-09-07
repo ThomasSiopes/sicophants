@@ -8,6 +8,7 @@ export const QUERY_AUTHOR_NAME = gql`
             quotes {
                 _id
                 quoteText
+                authorName
                 topics
             }
         }
@@ -22,6 +23,7 @@ export const QUERY_AUTHOR_ID = gql`
             quotes {
                 _id
                 quoteText
+                authorName
                 topics
             }
         }
@@ -36,6 +38,7 @@ export const QUERY_AUTHOR_ALL = gql`
             quotes {
                 _id
                 quoteText
+                authorName
                 topics
             }
         }
@@ -50,6 +53,7 @@ export const QUERY_TOPIC_NAME = gql`
             quotes {
                 _id
                 quoteText
+                authorName
                 topics
             }
         }
@@ -64,6 +68,7 @@ export const QUERY_TOPIC_ID = gql`
             quotes {
                 _id
                 quoteText
+                authorName
                 topics
             }
         }
@@ -78,6 +83,7 @@ export const QUERY_TOPIC_ALL = gql`
             quotes {
                 _id
                 quoteText
+                authorName
                 topics
             }
         }

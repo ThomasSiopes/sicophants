@@ -14,7 +14,7 @@ const QuoteRandom = ({classif, amount}) => {
     ({loading, data} = useQuery(QUERY_TOPIC_ALL));
     topList = data;
     
-    if(!loading) {
+    if(!loading && authList && topList) {
         if(classif === "author") {
             for(let i = 0; i < amount; ++i) {
                 do {
