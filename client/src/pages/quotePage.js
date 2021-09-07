@@ -35,7 +35,7 @@ function QuotePage() {
             pass = 1;
             randomQuote = author.quotes[Math.floor(Math.random() * author.quotes.length)]
             for(let index of quoteList) {
-                if(index == randomQuote) {
+                if(index === randomQuote) {
                     pass = 0;
                 }
             }

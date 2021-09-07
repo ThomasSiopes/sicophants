@@ -18,7 +18,7 @@ const QuoteRandomQuote = ({amount}) => {
                 randomNum = Math.floor(Math.random() * quoteList.quotes.length);
                 pass = 0
                 for(let n of randArr) {
-                    if(n == randomNum) {
+                    if(n === randomNum) {
                         pass = 1;
                     }
                 }

@@ -1,6 +1,6 @@
 import React from "react";
-import { Link, Redirect, useHistory } from "react-router-dom";
-import { Navbar, Nav, NavDropdown, Button, Container, Form } from "react-bootstrap"
+import { Link, Redirect } from "react-router-dom";
+import { Navbar, Nav, Container, Form } from "react-bootstrap"
 
  class NavBar extends React.Component {
     constructor(props) {

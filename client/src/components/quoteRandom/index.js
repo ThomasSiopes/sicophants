@@ -21,7 +21,7 @@ const QuoteRandom = ({classif, amount}) => {
                     randomNum = Math.floor(Math.random() * authList.authors.length);
                     pass = 0
                     for(let n of randArr) {
-                        if(n == randomNum) {
+                        if(n === randomNum) {
                             pass = 1;
                         }
                     }
@@ -35,7 +35,7 @@ const QuoteRandom = ({classif, amount}) => {
                     randomNum = Math.floor(Math.random() * topList.topics.length);
                     pass = 0
                     for(let n of randArr) {
-                        if(n == randomNum) {
+                        if(n === randomNum) {
                             pass = 1;
                         }
                     }

@@ -1,6 +1,6 @@
 import React from "react";
-import { Link, Redirect, useParams } from 'react-router-dom';
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Link, } from 'react-router-dom';
+import { Container, Row, Col } from "react-bootstrap";
 import "../assets/css/index.css";
 
 import QuoteRandom from "../components/quoteRandom";
