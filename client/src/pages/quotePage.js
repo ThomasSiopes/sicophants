@@ -4,6 +4,7 @@ import { useQuery } from '@apollo/client';
 import { Container, Row, Card, Col } from "react-bootstrap"
 import "../assets/css/index.css"
 import TopicButton from "../components/topicButton"
+import AuthorButton from "../components/authorButton"
 
 import { QUERY_QUOTE_ID, QUERY_AUTHOR_NAME } from '../utils/queries';
 
@@ -59,7 +60,7 @@ function QuotePage() {
                                 "{quote.quoteText}"
                             </Card.Text>
                             <Card.Text>
-                                <Link to={`/author/${author._id}`} className="authorAttribute">{quote.authorName}</Link>
+                                <AuthorButton key={quote.authorName} input={quote.authorName}></AuthorButton>
                             </Card.Text>
                         </Card.Body>
                         <Card.Body className="text-center">

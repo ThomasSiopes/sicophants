@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Row, Col, Card } from "react-bootstrap"
 import TopicButton from "../topicButton"
+import AuthorButton from "../authorButton"
 
 const QuoteList = ({quotes}) => {
     if(!quotes.length) return (<p>No Quotes...</p>);
@@ -20,7 +21,7 @@ const QuoteList = ({quotes}) => {
                                 </Card.Body>
                             </Link>
                             <Card.Body>
-                                    <Link to={`/`} className="authorAttribute">{quote.authorName}</Link>
+                                <AuthorButton key={quote.authorName} input={quote.authorName}></AuthorButton>
                             </Card.Body>
                             <Card.Footer className={"text-center"}>
                                 {quote.topics.map((topic) => (

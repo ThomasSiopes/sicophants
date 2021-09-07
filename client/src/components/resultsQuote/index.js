@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 import { Container, Card, Col, Row } from "react-bootstrap";
+import TopicButton from "../topicButton"
+import AuthorButton from "../authorButton"
 
 import { QUERY_QUOTES_ALL } from '../../utils/queries';
 
@@ -34,11 +36,13 @@ const ResultsQuote = ({input}) => {
                                         <Link to={`/quote/${index._id}`} className="noDecor">
                                             <Card.Body>
                                                 <p>"{index.quoteText}"</p>
-                                                <Link to={`/`} className="authorAttribute">{index.authorName}</Link>
+                                                <AuthorButton key={index.authorName} input={index.authorName}></AuthorButton>
                                             </Card.Body>
                                         </Link>
                                         <Card.Footer>
-                                            {index.topics}
+                                            {index.topics.map((topic) => (
+                                                <TopicButton key={topic} input={topic}></TopicButton>
+                                            ))}
                                         </Card.Footer>
                                     </Card>
                                 </Container>
