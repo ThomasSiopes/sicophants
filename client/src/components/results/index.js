@@ -38,15 +38,13 @@ const Results = ({classif, input}) => {
                     <Row className="text-center">
                         {newList.map((index) => (
                             <Col xs={12} sm={6} md={4} className="mb-2" key={index.name}>
-                                <Container>
-                                    <Card>
-                                        <Link to={`/${classif}/${index._id}`} className="btn btn-red">
-                                                <Card.Body>
-                                                    {index.name}
-                                                </Card.Body>
-                                        </Link>
-                                    </Card>
-                                </Container>
+                                <Card>
+                                    <Link to={`/${classif}/${index._id}`} className="btn btn-red">
+                                            <Card.Body>
+                                                {index.name}
+                                            </Card.Body>
+                                    </Link>
+                                </Card>
                             </Col>
                         ))}
                     </Row>

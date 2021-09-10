@@ -1,182 +1,136 @@
 [
-    {
-        "name": "Finks",
-        "htmlName": ""
-    },
-    {
-        "name": "Truth Fairies",
-        "htmlName": ""
-    },
-    {
-        "name": "Wickedness",
-        "htmlName": ""
-    },
-    {
-        "name": "Traditionalists",
-        "htmlName": ""
-    },
-    {
-        "name": "Efficiency",
-        "htmlName": ""
-    },
-    {
-        "name": "Amnesiacs",
-        "htmlName": ""
-    },
-    {
-        "name": "Challenge",
-        "htmlName": ""
-    },
-    {
-        "name": "Self-Approval",
-        "htmlName": ""
-    },
-    {
-        "name": "Idolatry",
-        "htmlName": ""
-    },
-    {
-        "name": "Roguery",
-        "htmlName": ""
-    },
-    {
-        "name": "Crime & Punishment",
-        "htmlName": ""
-    },
-    {
-        "name": "Futility",
-        "htmlName": ""
-    },
-    {
-        "name": "Galatians 6:7",
-        "htmlName": ""
-    },
-    {
-        "name": "Hindsight",
-        "htmlName": ""
-    },
-    {
-        "name": "Bandwagons & Fair-Weather",
-        "htmlName": ""
-    },
-    {
-        "name": "Hecklers",
-        "htmlName": ""
-    },
-    {
-        "name": "Duty",
-        "htmlName": ""
-    },
-    {
-        "name": "Greed",
-        "htmlName": ""
-    },
-    {
-        "name": "Aiders & Abettors",
-        "htmlName": ""
-    },
-    {
-        "name": "Accomplishment",
-        "htmlName": ""
-    },
-    {
-        "name": "Rose-Colored Mirrors",
-        "htmlName": ""
-    },
-    {
-        "name": "High Society",
-        "htmlName": ""
-    },
-    {
-        "name": "Ingrates",
-        "htmlName": ""
-    },
-    {
-        "name": "Scholarship",
-        "htmlName": ""
-    },
-    {
-        "name": "Adversity ",
-        "htmlName": ""
-    },
-    {
-        "name": "Deadbeats",
-        "htmlName": ""
-    },
-    {
-        "name": "Malcontents",
-        "htmlName": ""
-    },
-    {
-        "name": "Friendship",
-        "htmlName": ""
-    },
-    {
-        "name": "Praise Publicly",
-        "htmlName": ""
-    },
-    {
-        "name": "Advise Privately",
-        "htmlName": ""
-    },
-    {
-        "name": "Force & Violence",
-        "htmlName": ""
-    },
-    {
-        "name": "Poverty",
-        "htmlName": ""
-    },
-    {
-        "name": "Righteousness",
-        "htmlName": ""
-    },
-    {
-        "name": "Industry",
-        "htmlName": ""
-    },
-    {
-        "name": "Setbacks",
-        "htmlName": ""
-    },
-    {
-        "name": "Verbosity",
-        "htmlName": ""
-    },
-    {
-        "name": "Ambition",
-        "htmlName": ""
-    },
-    {
-        "name": "Pride",
-        "htmlName": ""
-    },
-    {
-        "name": "Impropriety",
-        "htmlName": ""
-    },
-    {
-        "name": "The High Road",
-        "htmlName": ""
-    },
-    {
-        "name": "Sanctimony",
-        "htmlName": ""
-    },
-    {
-        "name": "First Hands",
-        "htmlName": ""
-    },
-    {
-        "name": "Grief",
-        "htmlName": ""
-    },
-    {
-        "name": "Brevity",
-        "htmlName": ""
-    },
-    {
-        "name": "Haste",
-        "htmlName": ""
-    }
+    {"name": "Finks"},
+    {"name": "Truth Fairies"},
+    {"name": "Wickedness"},
+    {"name": "Traditionalists"},
+    {"name": "Efficiency"},
+    {"name": "Amnesiacs"},
+    {"name": "Challenge"},
+    {"name": "Self-Approval"},
+    {"name": "Idolatry"},
+    {"name": "Roguery"},
+    {"name": "Crime & Punishment"},
+    {"name": "Futility"},
+    {"name": "Galatians 6:7"},
+    {"name": "Hindsight"},
+    {"name": "Bandwagons & Fair-Weather"},
+    {"name": "Hecklers"},
+    {"name": "Duty"},
+    {"name": "Greed"},
+    {"name": "Aiders & Abettors"},
+    {"name": "Accomplishment"},
+    {"name": "Rose-Colored Mirrors"},
+    {"name": "High Society"},
+    {"name": "Ingrates"},
+    {"name": "Scholarship"},
+    {"name": "Adversity "},
+    {"name": "Deadbeats"},
+    {"name": "Malcontents"},
+    {"name": "Friendship"},
+    {"name": "Praise Publicly"},
+    {"name": "Advise Privately"},
+    {"name": "Force & Violence"},
+    {"name": "Poverty"},
+    {"name": "Righteousness"},
+    {"name": "Industry"},
+    {"name": "Setbacks"},
+    {"name": "Verbosity"},
+    {"name": "Ambition"},
+    {"name": "Pride"},
+    {"name": "Impropriety"},
+    {"name": "The High Road"},
+    {"name": "Sanctimony"},
+    {"name": "First Hands"},
+    {"name": "Grief"},
+    {"name": "Brevity"},
+    {"name": "Haste"},
+    {"name": "Censorship"},
+    {"name": "Mob Rules"},
+    {"name": "Ignore the Noise"},
+    {"name": "Close to the Vest"},
+    {"name": "Cold Feet"},
+    {"name": "Anger"},
+    {"name": "Inquiry"},
+    {"name": "Emotion"},
+    {"name": "Patience"},
+    {"name": "Here & Now"},
+    {"name": "Gambling"},
+    {"name": "Inequality"},
+    {"name": "Certainty"},
+    {"name": "Conformity"},
+    {"name": "Academia"},
+    {"name": "Privileged A-holes"},
+    {"name": "Bullsh!tters"},
+    {"name": "Vices"},
+    {"name": "Tyrants"},
+    {"name": "Thick Skin"},
+    {"name": "Simplicity"},
+    {"name": "Materialism"},
+    {"name": "Insults"},
+    {"name": "Misfortune"},
+    {"name": "Hotheads"},
+    {"name": "Elite Deviance"},
+    {"name": "Beginning"},
+    {"name": "Nitpickers"},
+    {"name": "Rhetoric"},
+    {"name": "Gossip"},
+    {"name": "Risk-Reward"},
+    {"name": "Meddlers"},
+    {"name": "Mob Mentality"},
+    {"name": "Armchair QB"},
+    {"name": "Squeaky Wheels"},
+    {"name": "Teamwork"},
+    {"name": "Customer Relations"},
+    {"name": "Quality"},
+    {"name": "Adversity"},
+    {"name": "Diet"},
+    {"name": "Introversion"},
+    {"name": "Confirmation Bias"},
+    {"name": "Grudges"},
+    {"name": "Plutocracy"},
+    {"name": "Commitment"},
+    {"name": "War on Truth"},
+    {"name": "Benevolence"},
+    {"name": "MMQBs"},
+    {"name": "Appeasers"},
+    {"name": "Law"},
+    {"name": "Jealousy"},
+    {"name": "Taciturnity"},
+    {"name": "Humility"},
+    {"name": "Enemies"},
+    {"name": "Appeasement"},
+    {"name": "Knowledge"},
+    {"name": "Insecurity"},
+    {"name": "Hunger"},
+    {"name": "Laws & The Legislature"},
+    {"name": "Rationalization"},
+    {"name": "Sell-Outs"},
+    {"name": "Wishful Thinking"},
+    {"name": "Witch Hunts & Scapegoating"},
+    {"name": "Finger-pointing"},
+    {"name": "Cynicism"},
+    {"name": "Pacifists"},
+    {"name": "One-Uppers"},
+    {"name": "Scaredy Cats"},
+    {"name": "Lesser Evil"},
+    {"name": "Injustice"},
+    {"name": "Outdoors"},
+    {"name": "Youth"},
+    {"name": "MS: Rocket Surgeons"},
+    {"name": "Phonies & Posers"},
+    {"name": "Promises"},
+    {"name": "Soapboxes & Orators"},
+    {"name": "Liars"},
+    {"name": "Propaganda"},
+    {"name": "Marginal EEs"},
+    {"name": "Conservative"},
+    {"name": "Trade-Off"},
+    {"name": "Guilty Conscience"},
+    {"name": "Debt"},
+    {"name": "Pick Your Battles"},
+    {"name": "Politics & Politicians"},
+    {"name": "Arguing"},
+    {"name": "Personnel"},
+    {"name": "Jealousy & Envy"},
+    {"name": "Bible-thumpers"}
 ]

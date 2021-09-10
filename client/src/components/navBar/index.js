@@ -27,7 +27,7 @@ import { Navbar, Nav, Container, Form } from "react-bootstrap"
         }
         else {
             return (
-                <Navbar bg="red" variant="dark" expand="sm" className="font-Lato">
+                <Navbar bg="red" variant="dark" expand="md" className="font-Lato">
                     <Container>
                         <Link className="navbar-brand" to={`/`}><strong>PROVERBIAL WISDOM</strong></Link>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -38,7 +38,7 @@ import { Navbar, Nav, Container, Form } from "react-bootstrap"
                             <Link className="nav-link" to={`/topicNavigation`}>Topics</Link>
                         </Nav>
                         <Form onSubmit={this.handleSubmit}>
-                            <input type="text" id="searchTerm" placeholder="Search..." className="mx-2" onChange={this.handleChange}></input>
+                            <input type="text" id="searchTerm" placeholder="Search..." className="me-2 my-2" onChange={this.handleChange}></input>
                             <input type="submit" value="Submit"></input>
                         </Form>
                         </Navbar.Collapse>

@@ -30,22 +30,20 @@ const ResultsQuote = ({input}) => {
                     <hr></hr>
                     <Row className="text-center">
                         {newList.map((index) => (
-                            <Col xs={6} className="mb-2" key={index.name}>
-                                <Container>
-                                    <Card>
-                                        <Link to={`/quote/${index._id}`} className="noDecor">
-                                            <Card.Body>
-                                                <p>"{index.quoteText}"</p>
-                                                <AuthorButton key={index.authorName} input={index.authorName}></AuthorButton>
-                                            </Card.Body>
-                                        </Link>
-                                        <Card.Footer>
-                                            {index.topics.map((topic) => (
-                                                <TopicButton key={topic} input={topic}></TopicButton>
-                                            ))}
-                                        </Card.Footer>
-                                    </Card>
-                                </Container>
+                            <Col xs={6} md={4} className="mb-2" key={index.name}>
+                                <Card>
+                                    <Link to={`/quote/${index._id}`} className="noDecor">
+                                        <Card.Body className="font-Kaisei">"{index.quoteText}"</Card.Body>
+                                    </Link>
+                                    <Card.Body>
+                                        <AuthorButton key={index.authorName} input={index.authorName}></AuthorButton>
+                                    </Card.Body>
+                                    <Card.Footer>
+                                        {index.topics.map((topic) => (
+                                            <TopicButton key={topic} input={topic}></TopicButton>
+                                        ))}
+                                    </Card.Footer>
+                                </Card>
                             </Col>
                         ))}
                     </Row>

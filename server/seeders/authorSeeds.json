@@ -1,50 +1,18 @@
 [
-    {
-        "name": "African Proverb",
-        "htmlName": ""
-    },
-    {
-        "name": "Albanian Proverb",
-        "htmlName": ""
-    },
-    {
-        "name": "American Proverb",
-        "htmlName": ""
-    },
-    {
-        "name": "Arabian Proverb",
-        "htmlName": ""
-    },
-    {
-        "name": "Ashanti Proverb",
-        "htmlName": ""
-    },
-    {
-        "name": "Basque Proverb",
-        "htmlName": ""
-    },
-    {
-        "name": "Belgian Proverb",
-        "htmlName": ""
-    },
-    {
-        "name": "Buddhist Proverb",
-        "htmlName": ""
-    },
-    {
-        "name": "Bulgarian Proverb",
-        "htmlName": ""
-    },
-    {
-        "name": "Burmese Proverb",
-        "htmlName": ""
-    },
-    {
-        "name": "Chadian Proverb",
-        "htmlName": ""
-    },
-    {
-        "name": "Chinese Proverb",
-        "htmlName": ""
-    }
+    {"name": "African Proverb"},
+    {"name": "Albanian Proverb"},
+    {"name": "American Proverb"},
+    {"name": "Arabian Proverb"},
+    {"name": "Ashanti Proverb"},
+    {"name": "Basque Proverb"},
+    {"name": "Belgian Proverb"},
+    {"name": "Buddhist Proverb"},
+    {"name": "Bulgarian Proverb"},
+    {"name": "Burmese Proverb"},
+    {"name": "Chadian Proverb"},
+    {"name": "Chinese Proverb"},
+    {"name": "Congolese Proverb"},
+    {"name": "Czech Proverb"},
+    {"name": "Danish Proverb"},
+    {"name": "Dutch Proverb"}
 ]

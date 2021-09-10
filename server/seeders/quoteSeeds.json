@@ -250,7 +250,7 @@
         "topics": []
     },
     {
-        "quoteText": "A dog in a kennel barks at his fleas; a dog hunting does not notice them. ",
+        "quoteText": "A dog in a kennel barks at his fleas; a dog hunting does not notice them.",
         "authorName": "Chinese Proverb",
         "topics": ["Industry"]
     },
@@ -283,5 +283,226 @@
         "quoteText": "Flurried men lack wisdom.",
         "authorName": "Chinese Proverb",
         "topics": ["Haste"]
-    }
+    },
+    {
+        "quoteText": "You can chop a man’s head off, but you still can’t keep him quiet.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Censorship "]
+    },
+    {
+        "quoteText": "Everyone pushes a falling fence.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Mob Rules"]
+    },
+    {
+        "quoteText": "Slander cannot destroy an honest man . . . when the flood recedes the rock is there.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Ignore the Noise"]
+    },
+    {
+        "quoteText": "He who shows a passion tells his enemy where he may hit him.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Close to the Vest"]
+    },
+    {
+        "quoteText": "He who neglects a good opportunity, must not afterwards complain.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Cold Feet"]
+    },
+    {
+        "quoteText": "The fastest horse cannot catch a word spoken in anger.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Anger"]
+    },
+    {
+        "quoteText": "He who asks is a fool for five minutes, but he who does not ask remains a fool forever.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Inquiry"]
+    },
+    {
+        "quoteText": "In the midst of great joy do not promise anyone anything.  In the midst of great anger do not answer anyone’s letter.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Emotion"]
+    },
+    {
+        "quoteText": "To know the road ahead, ask those coming back.",
+        "authorName": "Chinese Proverb",
+        "topics": ["First Hands"]
+    },
+    {
+        "quoteText": "One moment of patience may ward off a great disaster; one moment of impatience may ruin a whole life.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Patience"]
+    },
+    {
+        "quoteText": "You had better return home and make a net then go down to the river in desire to get fishes.",
+        "authorName": "Chinese Proverb",
+        "topics": []
+    },
+    {
+        "quoteText": "What you have to do, do without delay.",
+        "authorName": "Chinese Proverb",
+        "topics": []
+    },
+    {
+        "quoteText": "A thing cannot be at the same time both true and false.",
+        "authorName": "Chinese Proverb",
+        "topics": []
+    },
+    {
+        "quoteText": "He who sacrifices his conscience to ambition burns a picture to obtain the ashes.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Ambition"]
+    },
+    {
+        "quoteText": "Let the dead care for the dead, and the living for the living.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Here & Now"]
+    },
+    {
+        "quoteText": "Gambling is the source of robbery.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Gambling"]
+    },
+    {
+        "quoteText": "The sorrows of the rich are not real sorrows; the comforts of the poor are not real comforts.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Inequality"]
+    },
+    {
+        "quoteText": "To be uncertain is uncomfortable, but to be certain is to be ridiculous.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Certainty"]
+    },
+    {
+        "quoteText": "The twisted tree lives its life, while the straight tree ends up in planks.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Conformity"]
+    },
+    {
+        "quoteText": "It is easier to know how to do a thing than to do it.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Academia"]
+    },
+    {
+        "quoteText": "The only thing that was missing at the rich man's funeral was mourners.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Privileged A-holes"]
+    },
+    {
+        "quoteText": "Who is the greatest liar?  Who talks most of himself.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Bullsh!tters"]
+    },
+    {
+        "quoteText": "When men come face-to-face, their differences vanish.",
+        "authorName": "Chinese Proverb",
+        "topics": ["Tough Guys"]
+    },
+    {
+        "quoteText": "The best time to plant a tree was 20 years ago. The second best time is today.",
+        "authorName": "Chinese Proverb",
+        "topics": []
+    },
+    {"quoteText": "What the ear hears is not like what the eye sees.", "authorName": "Chinese Proverb", "topics": ["Words"]},
+    {"quoteText": "Let those who desire to break off drinking habits, when sober, observe a drunken man.", "authorName": "Chinese Proverb", "topics": ["Vices"]},
+    {"quoteText": "When the prince wants a minister to die, he dies.", "authorName": "Chinese Proverb", "topics": ["Tyrants"]},
+    {"quoteText": "How can a tiger ever receive an insult from a dog?", "authorName": "Chinese Proverb", "topics": ["Thick Skin"]},
+    {"quoteText": "The artful are loquacious, the simple are silent; the artful are miserable, the simple are happy.", "authorName": "Chinese Proverb", "topics": ["Simplicity"]},
+    {"quoteText": "Even a mole may instruct a philosopher in the art of digging.", "authorName": "Chinese Proverb", "topics": ["First Hands"]},
+    {"quoteText": "Wealth infatuates as well as beauty.", "authorName": "Chinese Proverb", "topics": ["Materialism"]},
+    {"quoteText": "The wound of a sharp knife will close up, but the hate provoked by evil words will never die.", "authorName": "Chinese Proverb", "topics": ["Insults"]},
+    {"quoteText": "Misfortune is not that which can be avoided, but that which cannot.", "authorName": "Chinese Proverb", "topics": ["Misfortune"]},
+    {"quoteText": "If you believe in gambling, you will have to sell your house.", "authorName": "Chinese Proverb", "topics": ["Gambling "]},
+    {"quoteText": "If you lose your temper, it is a sign that you have wrong on your side.", "authorName": "Chinese Proverb", "topics": ["Hotheads"]},
+    {"quoteText": "Money hides many offenses.", "authorName": "Chinese Proverb", "topics": ["Elite Deviance "]},
+    {"quoteText": "The upright fear no thunderbolts.", "authorName": "Chinese Proverb", "topics": ["Righteousness "]},
+    {"quoteText": "Sow much, reap much; sow little, reap little.", "authorName": "Chinese Proverb", "topics": ["Galatians 6:7"]},
+    {"quoteText": "Walking ten thousand roads is better than reading ten thousand scrolls.", "authorName": "Chinese Proverb", "topics": ["Scholarship"]},
+    {"quoteText": "The man who removes a mountain begins by carrying away small stones.", "authorName": "Chinese Proverb", "topics": ["Beginning"]},
+    {"quoteText": "A man who cannot tolerate small ills can never accomplish great things.", "authorName": "Chinese Proverb", "topics": ["Nitpickers"]},
+    {"quoteText": "Talk does not cook rice.", "authorName": "Chinese Proverb", "topics": ["Rhetoric"]},
+    {"quoteText": "He who deliberates fully before taking a step will spend his entire life on one leg.", "authorName": "Chinese Proverb", "topics": ["Cold Feet"]},
+    {"quoteText": "What is told in the ear of a man is often heard one hundred miles away.", "authorName": "Chinese Proverb", "topics": ["Gossip"]},
+    {"quoteText": "Great profits, great risks.", "authorName": "Chinese Proverb", "topics": ["Risk-Reward"]},
+    {"quoteText": "Men in the game are blind to what men looking on see clearly.", "authorName": "Chinese Proverb", "topics": ["Meddlers"]},
+    {"quoteText": "One dog barks at something, and a hundred bark at his sound.", "authorName": "Chinese Proverb", "topics": ["Mob Mentality"]},
+    {"quoteText": "It is easier to know how to do than it is to do.", "authorName": "Chinese Proverb", "topics": ["Armchair QB"]},
+    {"quoteText": "Those who have free seat at a play hiss first.", "authorName": "Chinese Proverb", "topics": ["Ingrates "]},
+    {"quoteText": "He who makes constant complaint gets little compassion.", "authorName": "Chinese Proverb", "topics": ["Squeaky Wheels"]},
+    {"quoteText": "Better go to heaven in rags, then to hell in embroidery.", "authorName": "Chinese Proverb", "topics": ["Pride"]},
+    {"quoteText": "Truth is not determined by the volume of the voice.", "authorName": "Chinese Proverb", "topics": ["Hotheads"]},
+    {"quoteText": "Behind every able man there are always other able men.", "authorName": "Chinese Proverb", "topics": ["Teamwork"]},
+    {"quoteText": "A man without a smiling face must not open a shop.", "authorName": "Chinese Proverb", "topics": ["Customer Relations"]},
+    {"quoteText": "Cheap things are not good, good things are not cheap.", "authorName": "Chinese Proverb", "topics": ["Quality"]},
+    {"quoteText": "A gem cannot be polished without friction, nor man perfected without trials.", "authorName": "Chinese Proverb", "topics": ["Adversity"]},
+    {"quoteText": "Everything you eat affects you profoundly.", "authorName": "Chinese Proverb", "topics": ["Diet"]},
+    {"quoteText": "The man who comes with a tale about others has himself an ax to grind.", "authorName": "Chinese Proverb", "topics": ["Gossip"]},
+    {"quoteText": "A single bracelet does not jingle.", "authorName": "Congolese Proverb", "topics": ["Introversion"]},
+    {"quoteText": "He who wants to beat the dog will always find a stick.", "authorName": "Czech Proverb", "topics": ["Confirmation Bias"]},
+    {"quoteText": "When a man is not liked, whatever he doth is amiss.", "authorName": "Danish Proverb", "topics": ["Grudges"]},
+    {"quoteText": "Money is more eloquent than a dozen members of parliament.", "authorName": "Danish Proverb", "topics": ["Plutocracy"]},
+    {"quoteText": "A truth teller finds the doors closed against him.", "authorName": "Danish Proverb", "topics": ["Truth Fairies"]},
+    {"quoteText": "Diligent working makes an expert workman.", "authorName": "Danish Proverb", "topics": ["Commitment "]},
+    {"quoteText": "He who wants to tell the truth will always stand before closed doors.", "authorName": "Danish Proverb", "topics": ["Truth Fairies", "War on Truth"]},
+    {"quoteText": "One who is willing to help does not wait till he is asked.", "authorName": "Danish Proverb", "topics": ["Benevolence"]},
+    {"quoteText": "Advice after injury is like medicine after death.", "authorName": "Danish Proverb", "topics": ["MMQBs"]},
+    {"quoteText": "He who would serve everybody gets thanks from nobody.", "authorName": "Danish Proverb", "topics": ["Appeasers"]},
+    {"quoteText": "Better no law, than law not enforced.", "authorName": "Danish Proverb", "topics": ["Law"]},
+    {"quoteText": "Envy does not enter an empty house.", "authorName": "Danish Proverb", "topics": ["Jealousy"]},
+    {"quoteText": "A silent man's words are not brought into court.", "authorName": "Danish Proverb", "topics": ["Taciturnity"]},
+    {"quoteText": "He is not yet born who can please everybody.", "authorName": "Danish Proverb", "topics": ["Appeasers"]},
+    {"quoteText": "Better to ask twice than to lose your way once.", "authorName": "Danish Proverb", "topics": ["Humility"]},
+    {"quoteText": "Better a friend’s bite than an enemy’s caress.", "authorName": "Danish Proverb", "topics": ["Enemies"]},
+    {"quoteText": "He who builds according to every man’s advice will have a crooked house.", "authorName": "Danish Proverb", "topics": ["Appeasement"]},
+    {"quoteText": "He knows the water best who has waded through it.", "authorName": "Danish Proverb", "topics": ["First Hands"]},
+    {"quoteText": "What you cannot say briefly you do not know.", "authorName": "Danish Proverb", "topics": ["Knowledge"]},
+    {"quoteText": "He who is afraid of asking is ashamed of learning.", "authorName": "Danish Proverb", "topics": ["Insecurity"]},
+    {"quoteText": "Better cross an angry man than a fasting man.", "authorName": "Danish Proverb", "topics": ["Hunger"]},
+    {"quoteText": "Many have too much, but none enough.", "authorName": "Danish Proverb", "topics": ["Greed"]},
+    {"quoteText": "Kind words don’t wear out the tongue.", "authorName": "Danish Proverb", "topics": []},
+    {"quoteText": "Better no law than law not enforced.", "authorName": "Danish Proverb", "topics": ["Laws & The Legislature"]},
+    {"quoteText": "He that wants to hang a dog says it bites.", "authorName": "Danish Proverb", "topics": ["Rationalization"]},
+    {"quoteText": "It is better to suffer for truth than to prosper by falsehood.", "authorName": "Danish Proverb", "topics": ["Sell-Outs"]},
+    {"quoteText": "Hope and expectation are a fool's income.", "authorName": "Danish Proverb", "topics": ["Wishful Thinking"]},
+    {"quoteText": "Many a one would like to lay his own shame on another's back.", "authorName": "Danish Proverb", "topics": ["Witch Hunts & Scapegoating"]},
+    {"quoteText": "Blame is the lazy man's wages.", "authorName": "Danish Proverb", "topics": ["Finger-pointing"]},
+    {"quoteText": "An evil eye can see no good.", "authorName": "Danish Proverb", "topics": ["Cynicism"]},
+    {"quoteText": "An honest man is none the worse because a dog barks at him.", "authorName": "Danish Proverb", "topics": ["Hecklers"]},
+    {"quoteText": "He kills a man that saves not his life when he can.", "authorName": "Danish Proverb", "topics": ["Pacifists "]},
+    {"quoteText": "He who is fed by another's hand seldom gets enough.", "authorName": "Danish Proverb", "topics": ["Ingrates"]},
+    {"quoteText": "It is poor comfort for one who has broken his leg that another has broken his neck.", "authorName": "Danish Proverb", "topics": ["One-Uppers"]},
+    {"quoteText": "He that dare not venture must not complain of ill luck.", "authorName": "Danish Proverb", "topics": ["Scaredy Cats"]},
+    {"quoteText": "A good helper does not wait until he is asked.", "authorName": "Danish Proverb", "topics": ["Pride"]},
+    {"quoteText": "Bad is never good until worse happens.", "authorName": "Danish Proverb", "topics": ["Lesser Evil"]},
+    {"quoteText": "Justice oft leans on the side where the purse hangs.", "authorName": "Danish Proverb", "topics": ["Plutocracy"]},
+    {"quoteText": "Care, and not fine stables, makes a good horse.", "authorName": "Danish Proverb", "topics": ["High Society"]},
+    {"quoteText": "God help the sheep when the wolf is judge.", "authorName": "Danish Proverb", "topics": ["Injustice"]},
+    {"quoteText": "Fresh air keeps the doctor poor.", "authorName": "Danish Proverb", "topics": ["Outdoors"]},
+    {"quoteText": "Young pigs grunt as old pigs grunted before them.", "authorName": "Danish Proverb", "topics": ["Youth"]},
+    {"quoteText": "Give an ass oats, and it runs after thistles.", "authorName": "Dutch Proverb", "topics": ["MS: Rocket Surgeons"]},
+    {"quoteText": "Painted flowers have no scent.", "authorName": "Dutch Proverb", "topics": ["Phonies & Posers"]},
+    {"quoteText": "In the land of promise, a man may die of hunger.", "authorName": "Dutch Proverb", "topics": ["Promises"]},
+    {"quoteText": "There are more thieves than are hanged.", "authorName": "Dutch Proverb", "topics": ["Crime & Punishment"]},
+    {"quoteText": "Much talk, little work.", "authorName": "Dutch Proverb", "topics": ["Soapboxes & Orators"]},
+    {"quoteText": "No greater promisers than those who have nothing to give.", "authorName": "Dutch Proverb", "topics": ["Promises"]},
+    {"quoteText": "The wicked shun the light as the devil shuns the cross.", "authorName": "Dutch Proverb", "topics": ["The Wicked"]},
+    {"quoteText": "Show me a liar and I'll show you a thief.", "authorName": "Dutch Proverb", "topics": ["Liars"]},
+    {"quoteText": "The world likes to be deceived.", "authorName": "Dutch Proverb", "topics": ["Propaganda"]},
+    {"quoteText": "It is hard to catch hares with unwilling hounds.", "authorName": "Dutch Proverb", "topics": ["Marginal EEs"]},
+    {"quoteText": "Covetousness is never satisfied until its mouth is filled with dirt.", "authorName": "Dutch Proverb", "topics": ["Greed"]},
+    {"quoteText": "Poverty is the reward of idleness.", "authorName": "Dutch Proverb", "topics": ["Conservative"]},
+    {"quoteText": "He that will have fire must bear with smoke.", "authorName": "Dutch Proverb", "topics": ["Trade-Off"]},
+    {"quoteText": "A guilty conscience needs no accuser.", "authorName": "Dutch Proverb", "topics": ["Guilty Conscience"]},
+    {"quoteText": "Promises makes debts and debts make promises.", "authorName": "Dutch Proverb", "topics": ["Debt"]},
+    {"quoteText": "Better keep peace than make peace.", "authorName": "Dutch Proverb", "topics": ["Pick Your Battles"]},
+    {"quoteText": "It is easy to be generous out of another man's purse.", "authorName": "Dutch Proverb", "topics": ["Politics & Politicians"]},
+    {"quoteText": "When two quarrel both are to blame.", "authorName": "Dutch Proverb", "topics": ["Arguing"]},
+    {"quoteText": "He howls with the wolves, and bleats with the sheep.", "authorName": "Dutch Proverb", "topics": ["Appeasers"]},
+    {"quoteText": "Ill matched horses draw badly.", "authorName": "Dutch Proverb", "topics": ["Personnel"]},
+    {"quoteText": "\"The grapes are sour,\" said the fox, when he could not get at them.", "authorName": "Dutch Proverb", "topics": ["Jealousy & Envy"]},
+    {"quoteText": "All are not saints that go to church.", "authorName": "Dutch Proverb", "topics": ["Sanctimony"]},
+    {"quoteText": "From little things men go on to great.", "authorName": "Dutch Proverb", "topics": ["Beginning"]},
+    {"quoteText": "Many have the Bible on their lips but not in their hearts.", "authorName": "Dutch Proverb", "topics": ["Bible-thumpers"]},
+    {"quoteText": "God does not pay weekly, but he pays at the end.", "authorName": "Dutch Proverb", "topics": []}
 ]

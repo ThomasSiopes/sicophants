@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 import { Card } from "react-bootstrap";
+import AuthorButton from '../authorButton';
 
 import { QUERY_QUOTES_ALL } from '../../utils/queries';
 
@@ -35,11 +36,11 @@ const QuoteRandomQuote = ({amount}) => {
         <div>
             {scatterList.map((index) => (                 
                 <Card key={index.quoteText} className="mb-2">
-                    <Link className="redText breadCrumb" to={`/quote/${index._id}`}>
+                    <Link className="noDecor font-Kaisei" to={`/quote/${index._id}`}>
                         <Card.Body>"{index.quoteText}"</Card.Body>
                     </Link>
                     <Card.Footer>
-                        <Link className="redText breadCrumb" to={`/`}>{index.authorName}</Link>
+                        <AuthorButton key={index.authorName} input={index.authorName}></AuthorButton>
                     </Card.Footer>
                 </Card>
             ))}

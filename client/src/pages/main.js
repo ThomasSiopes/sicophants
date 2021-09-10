@@ -9,14 +9,10 @@ import QuoteRandomQuote from "../components/quoteRandomQuote";
 function Main() {
     return (
         <Container>
-            <Row className="mt-3 auttopBody">
-                <Col xs={2}>
-                    <Link className="breadCrumb redText" to={`/`}>Home</Link>
-                </Col>
-                <Col xs={8} className="text-center">
+            <Row className="mt-3 py-3 auttopBody">
+                <Col className="text-center">
                     <h3>Proverbial Wisdom Homepage</h3>
                 </Col>
-                <Col xs={2}></Col>
             </Row>
             <Row className="mt-3 text-center">
                 <Col xs={12} md={8} className="auttopBody mb-2 me-3">

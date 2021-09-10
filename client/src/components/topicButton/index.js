@@ -14,7 +14,7 @@ const TopicButton = ({input}) => {
     
     const topic = data.topicName;
 
-    if(topic) return (<Link to={`/topic/${topic._id}`} className="btn btn-red mx-1">{topic.name}</Link>)
+    if(topic) return (<Link to={`/topic/${topic._id}`} className="btn btn-red mx-1 mb-1">{topic.name}</Link>)
     else return (<p></p>);
 }
 export default TopicButton;
