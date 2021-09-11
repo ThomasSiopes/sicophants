@@ -14,7 +14,7 @@ const ResultsQuote = ({input}) => {
     quoteList = data;
 
     input = input.toUpperCase();
-    console.log(input);
+    // console.log(input);
     
     if(loading) return <p>Loading...</p>
 

@@ -7,7 +7,7 @@ import AuthorButton from "../authorButton"
 const QuoteList = ({quotes}) => {
     if(!quotes.length) return (<p>No Quotes...</p>);
 
-    console.log(quotes);
+    // console.log(quotes);
 
     return (
         <div>

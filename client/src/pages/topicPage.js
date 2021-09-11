@@ -15,11 +15,13 @@ function TopicPage() {
         variables: { topicId: topicId },
     })
 
+    if(!topicId || topicId === null || topicId === "undefined") return (<Redirect to={`/topicNavigation`}/>);
+
     if(loading) {
         return <div className="loadingPage">Loading...</div>;
     }
 
-    console.log(data);
+    // console.log(data);
 
     const topic = data.topicID;
     

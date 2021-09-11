@@ -15,7 +15,7 @@ const Results = ({classif, input}) => {
     topList = data;
 
     input = input.toUpperCase();
-    console.log(input);
+    // console.log(input);
 
     if(loading) return <p>Loading...</p>
 

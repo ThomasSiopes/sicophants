@@ -3,7 +3,7 @@
 - Nicer navbar
 - Fix errors
 - Find something to fill up white space on non-scrolling pages
-- Fix the fuckin 
+- Fix Heroku deployment
 
 # WIP
 - Footer

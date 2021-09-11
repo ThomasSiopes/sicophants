@@ -5,8 +5,8 @@ const handleOnClick = () => {
     if (navigator.share) {
         navigator
           .share({
-            title: `Stuff`,
-            text: `Check out stuff`,
+            title: `Proverbial Wisdom`,
+            text: `Check out this quote and more at Proverbial Wisdom`,
             url: document.location.href,
           })
           .then(() => {

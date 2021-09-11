@@ -8,6 +8,8 @@ import ResultsQuote from "../components/resultsQuote";
 
 function SearchResults() {    
     const { query } = useParams();
+
+    if(!query || query === null || query === "undefined") return (<Redirect to={`/`}/>);
     
     return (
         <Container className="auttopBody">

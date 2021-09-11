@@ -22,7 +22,7 @@ body {
 }
 
 .bg-red {
-    background-color: #8F1313;
+    background-color: #8F1313!important;
 }
 
 .bigQuote {
@@ -53,6 +53,10 @@ body {
     font-family: 'Kaisei HarunoUmi', serif;
 }
 
+#footer-Icon {
+    margin-right: 0.2rem;
+}
+
 #footer-supreme {
     position: relative;
     bottom: 0;
@@ -60,11 +64,16 @@ body {
 }
 
 .mainBody {
-    min-height: 76vh;
+    min-height: 67vh;
 }
 
 #mobile-share {
     color: #111;
+}
+
+#nav-Icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
 }
 
 .noDecor {

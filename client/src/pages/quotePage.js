@@ -51,7 +51,7 @@ function QuotePage() {
         quoteList.push(randomQuote);
     }
 
-    console.log(quoteList);
+    // console.log(quoteList);
     
     return (
         <Container className="auttopBody mt-3">
@@ -85,7 +85,7 @@ function QuotePage() {
                 <Col>
                     <Card>
                         <Card.Header>
-                            More quotes attributed to {quote.authorName}
+                            Assorted quotes attributed to {quote.authorName}
                         </Card.Header>
                         <Card.Body>
                             {quoteList.map((newQuote) => (

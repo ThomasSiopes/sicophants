@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useQuery } from '@apollo/client';
-import { Container } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 
 import { QUERY_TOPIC_ALL } from '../utils/queries';
 
@@ -16,18 +16,17 @@ function TopicNav() {
     const topicList = data.topics;
 
     const searchFunction = () => {
-        let input, filter, ul, li, a, txtValue;
+        let input, filter, group, elements, a, txtValue;
         input = document.getElementById('myInput');
         filter = input.value.toUpperCase();
-        ul = document.getElementById("myUL");
-        li = ul.getElementsByTagName('li');
+        group = document.getElementById("myGroup");
+        elements = group.getElementsByTagName('div');
 
-        // Loop through all list items, and hide those who don't match the search query
-        for (let i = 0; i < li.length; i++) {
-            a = li[i].getElementsByTagName("a")[0];
+        for (let i = 0; i < elements.length; i++) {
+            a = elements[i].getElementsByTagName("a")[0];
             txtValue = a.textContent || a.innerText;
-            if (txtValue.toUpperCase().indexOf(filter) > -1) li[i].style.display = ""; 
-            else li[i].style.display = "none";
+            if (txtValue.toUpperCase().indexOf(filter) > -1) elements[i].style.display = ""; 
+            else elements[i].style.display = "none";
         }
     }
 
@@ -38,15 +37,15 @@ function TopicNav() {
                 <Link className="breadCrumb redText" to={`/topicNavigation`}>Topics</Link>
             </p>
             
-            <input type="text" id="myInput" onKeyUp={searchFunction} placeholder="Search for names..."></input>
+            <input type="text" id="myInput" onKeyUp={searchFunction} placeholder="Search for topic names..."></input>
             <hr></hr>
-            <ul id="myUL">
+            <Row id="myGroup" className="text-center">
                 {topicList.map((topic) => (
-                    <li key={topic.name}>
+                    <Col xs={6} sm={4} md={3} key={topic.name} className="mb-2">
                         <Link className="redText" to={`/topic/${topic._id}`}>{topic.name}</Link>
-                    </li>
+                    </Col>
                 ))}
-            </ul>
+            </Row>
         </Container>
     )
 }

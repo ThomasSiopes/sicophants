@@ -15,11 +15,13 @@ function AuthorPage() {
         variables: { authorId: authorId },
     })
 
+    if(!authorId || authorId === null || authorId === "undefined") return (<Redirect to={`/authorNavigation`}/>);
+
     if(loading) {
         return <div className="loadingPage">Loading...</div>;
     }
 
-    console.log(data);
+    // console.log(data);
 
     const author = data.authorID;
     
