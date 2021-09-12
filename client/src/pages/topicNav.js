@@ -42,7 +42,7 @@ function TopicNav() {
             <Row id="myGroup" className="text-center">
                 {topicList.map((topic) => (
                     <Col xs={6} sm={4} md={3} key={topic.name} className="mb-2">
-                        <Link className="redText" to={`/topic/${topic._id}`}>{topic.name}</Link>
+                        <Link className="redText breadCrumb" to={`/topic/${topic._id}`}>{topic.name}</Link>
                     </Col>
                 ))}
             </Row>

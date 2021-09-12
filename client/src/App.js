@@ -1,7 +1,7 @@
 import React from "react";
 import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import NavBar from "./components/navBar";
 import Footer from "./components/footer";
@@ -12,6 +12,7 @@ import TopicNav from "./pages/topicNav";
 import TopicPage from "./pages/topicPage";
 import QuotePage from "./pages/quotePage";
 import SearchResult from "./pages/searchResult";
+import PageNotFound from "./components/pageNotFound";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -41,27 +42,30 @@ function App() {
         <NavBar></NavBar>
         <div className="container">
           <div className="mainBody">
-            <Route exact path="/">
-              <Home/>
-            </Route>
-            <Route exact path="/authorNavigation">
-              <AuthorNav/>
-            </Route>
-            <Route exact path="/topicNavigation">
-              <TopicNav/>
-            </Route>
-            <Route exact path="/author/:authorId">
-              <AuthorPage/>
-            </Route>
-            <Route exact path="/topic/:topicId">
-              <TopicPage/>
-            </Route>
-            <Route exact path="/quote/:quoteId">
-              <QuotePage/>
-            </Route>
-            <Route exact path="/search/:query">
-              <SearchResult/>
-            </Route>
+            <Switch>
+              <Route exact path="/">
+                <Home/>
+              </Route>
+              <Route exact path="/authorNavigation">
+                <AuthorNav/>
+              </Route>
+              <Route exact path="/topicNavigation">
+                <TopicNav/>
+              </Route>
+              <Route exact path="/author/:authorId">
+                <AuthorPage/>
+              </Route>
+              <Route exact path="/topic/:topicId">
+                <TopicPage/>
+              </Route>
+              <Route exact path="/quote/:quoteId">
+                <QuotePage/>
+              </Route>
+              <Route exact path="/search/:query">
+                <SearchResult/>
+              </Route>
+              <Route component={PageNotFound}/>
+            </Switch>
           </div>
         </div>
         <Footer></Footer>
