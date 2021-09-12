@@ -3,16 +3,17 @@ import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink } from "@ap
 import { setContext } from "@apollo/client/link/context";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import NavBar from "./components/navBar";
-import Footer from "./components/footer";
-import Home from "./pages/main";
-import AuthorNav from "./pages/authorNav";
-import AuthorPage from "./pages/authorPage";
-import TopicNav from "./pages/topicNav";
-import TopicPage from "./pages/topicPage";
-import QuotePage from "./pages/quotePage";
-import SearchResult from "./pages/searchResult";
-import PageNotFound from "./components/pageNotFound";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import PageNotFound from "./components/PageNotFound";
+
+import Home from "./pages/Main";
+import AuthorNav from "./pages/AuthorNav";
+import AuthorPage from "./pages/AuthorPage";
+import TopicNav from "./pages/TopicNav";
+import TopicPage from "./pages/TopicPage";
+import QuotePage from "./pages/QuotePage";
+import SearchResult from "./pages/SearchResult";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 

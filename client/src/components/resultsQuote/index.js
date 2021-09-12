@@ -2,8 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 import { Container, Card, Col, Row } from "react-bootstrap";
-import TopicButton from "../topicButton"
-import AuthorButton from "../authorButton"
+
+import TopicButton from "../TopicButton"
+import AuthorButton from "../AuthorButton"
 
 import { QUERY_QUOTES_ALL } from '../../utils/queries';
 

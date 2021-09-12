@@ -6,7 +6,7 @@ import "../assets/css/index.css"
 
 import { QUERY_AUTHOR_ID } from '../utils/queries';
 
-import QuoteList from "../components/quoteList";
+import QuoteList from "../components/QuoteList";
 
 function AuthorPage() {
     const { authorId } = useParams();

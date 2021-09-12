@@ -3,8 +3,8 @@ import { Link, Redirect, useParams } from 'react-router-dom';
 import { Container } from "react-bootstrap";
 import "../assets/css/index.css";
 
-import Results from "../components/results";
-import ResultsQuote from "../components/resultsQuote";
+import Results from "../components/Results";
+import ResultsQuote from "../components/ResultsQuote";
 
 function SearchResults() {    
     const { query } = useParams();

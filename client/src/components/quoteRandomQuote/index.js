@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 import { Card } from "react-bootstrap";
-import AuthorButton from '../authorButton';
+
+import AuthorButton from '../AuthorButton';
 
 import { QUERY_QUOTES_ALL } from '../../utils/queries';
 

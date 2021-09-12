@@ -3,8 +3,8 @@ import { Link, } from 'react-router-dom';
 import { Container, Row, Col } from "react-bootstrap";
 import "../assets/css/index.css";
 
-import QuoteRandom from "../components/quoteRandom";
-import QuoteRandomQuote from "../components/quoteRandomQuote";
+import QuoteRandom from "../components/QuoteRandom";
+import QuoteRandomQuote from "../components/QuoteRandomQuote";
 
 function Main() {
     return (

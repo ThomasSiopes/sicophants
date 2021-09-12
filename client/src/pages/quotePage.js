@@ -4,9 +4,9 @@ import { useQuery } from '@apollo/client';
 import { Container, Row, Card, Col } from "react-bootstrap"
 import { FaTwitterSquare, FaFacebookSquare, FaRedditSquare } from "react-icons/fa";
 import "../assets/css/index.css";
-import TopicButton from "../components/topicButton";
-import AuthorButton from "../components/authorButton";
-import MobileButton from "../components/mobileShare";
+import TopicButton from "../components/TopicButton";
+import AuthorButton from "../components/AuthorButton";
+import MobileButton from "../components/MobileShare";
 
 import { QUERY_QUOTE_ID, QUERY_AUTHOR_NAME } from '../utils/queries';
 

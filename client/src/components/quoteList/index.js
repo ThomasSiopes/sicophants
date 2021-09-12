@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Row, Col, Card } from "react-bootstrap"
-import TopicButton from "../topicButton"
-import AuthorButton from "../authorButton"
+import { Row, Col, Card } from "react-bootstrap";
+
+import TopicButton from "../TopicButton"
+import AuthorButton from "../AuthorButton"
 
 const QuoteList = ({quotes}) => {
     if(!quotes.length) return (<p>No Quotes...</p>);
