@@ -12,7 +12,7 @@ const FooterPage = () => {
                 <Row className="text-center">
                     <Col xs={7} sm={6} lg={3} className="d-flex font-Lato">
                         <Container className="align-self-center">
-                            <Link to={`/`} className="navbar-brand text-white"><strong><FaBookReader id="footer-Icon"/> Proverbial Wisdom</strong></Link>
+                            <p id="footerTag"><Link to={`/`} className="navbar-brand text-white"><strong><FaBookReader id="footer-Icon"/> Proverbial Wisdom</strong></Link></p>
                         </Container>
                     </Col>
                     <Col xs={3} className="d-flex d-none d-lg-block">

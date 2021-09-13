@@ -63,6 +63,10 @@ body {
     width: 100%;
 }
 
+#footerTag {
+    max-width: 100%;
+}
+
 .mainBody {
     min-height: 67vh;
 }
