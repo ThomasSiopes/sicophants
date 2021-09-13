@@ -11,7 +11,7 @@ const FooterPage = () => {
             <Container className="bg-red">
                 <Row className="text-center">
                     <Col xs={6} md={3} className="d-flex font-Lato">
-                        <Link to={`/`} className="align-self-center navbar-brand text-white"><strong><FaBookReader id="footer-Icon"/> Proverbial Wisdom</strong></Link>
+                        <Link to={`/`} className="align-self-center navbar-brand text-white"><p><strong><FaBookReader id="footer-Icon"/> Proverbial Wisdom</strong></p></Link>
                     </Col>
                     <Col xs={3} className="d-flex d-none d-md-block">
                         <span className="align-self-center">Proverbial Wisdom is a full-stack project devoted to showcasing my newfound web development skills, utilizing MERN style structuring (MongoDB, Express, React, and NodeJS).</span>
