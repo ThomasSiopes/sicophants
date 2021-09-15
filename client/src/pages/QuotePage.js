@@ -40,8 +40,6 @@ function QuotePage() {
         return <div className="loadingPage">Loading...</div>;
     }
 
-    if(!loading && quote.authorName === null && !quote.quoteText) return (<Redirect to={`/404error`}/>)
-
     for(let i = 0; ((i < 3) && (i < author.quotes.length)); ++i) {
         do {
             pass = 1;
@@ -55,7 +53,7 @@ function QuotePage() {
         quoteList.push(randomQuote);
     }
 
-    console.log(quote);
+    if(!loading && (quote.authorName === null && !quote.quoteText)) return (<Redirect to={`/404error`}/>)
     
     return (
         <Container className="auttopBody mt-3">
