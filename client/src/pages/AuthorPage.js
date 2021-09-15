@@ -21,7 +21,7 @@ function AuthorPage() {
         return <div className="loadingPage">Loading...</div>;
     }
 
-    // console.log(data);
+    if(!data) return (<Redirect to={`/404error`}/>);
 
     const author = data.authorID;
     

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useParams } from 'react-router-dom';
+import { Link, Redirect, useParams } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 import { Container, Row, Card, Col } from "react-bootstrap"
 import { FaTwitterSquare, FaFacebookSquare, FaRedditSquare } from "react-icons/fa";
@@ -40,6 +40,8 @@ function QuotePage() {
         return <div className="loadingPage">Loading...</div>;
     }
 
+    if(quote.authorName === null && !quote.quoteText) return (<Redirect to={`/404error`}/>)
+
     for(let i = 0; ((i < 3) && (i < author.quotes.length)); ++i) {
         do {
             pass = 1;
@@ -53,7 +55,7 @@ function QuotePage() {
         quoteList.push(randomQuote);
     }
 
-    // console.log(quoteList);
+    console.log(quote);
     
     return (
         <Container className="auttopBody mt-3">

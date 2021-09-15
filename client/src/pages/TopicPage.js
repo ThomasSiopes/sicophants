@@ -21,7 +21,7 @@ function TopicPage() {
         return <div className="loadingPage">Loading...</div>;
     }
 
-    // console.log(data);
+    if(!data) return (<Redirect to={`/404error`}/>);
 
     const topic = data.topicID;
     
