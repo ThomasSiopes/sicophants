@@ -40,7 +40,7 @@ function QuotePage() {
         return <div className="loadingPage">Loading...</div>;
     }
 
-    if(quote.authorName === null && !quote.quoteText) return (<Redirect to={`/404error`}/>)
+    if(!loading && quote.authorName === null && !quote.quoteText) return (<Redirect to={`/404error`}/>)
 
     for(let i = 0; ((i < 3) && (i < author.quotes.length)); ++i) {
         do {
