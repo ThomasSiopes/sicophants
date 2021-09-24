@@ -53,7 +53,7 @@ function QuotePage() {
         quoteList.push(randomQuote);
     }
 
-    if(!loading && (quote.authorName === null && !quote.quoteText)) return (<Redirect to={`/404error`}/>)
+    // if(!loading && !data && (quote.authorName === null && !quote.quoteText)) return (<Redirect to={`/404error`}/>)
     
     return (
         <Container className="auttopBody mt-3">

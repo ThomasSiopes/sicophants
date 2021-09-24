@@ -10,7 +10,7 @@ const FooterPage = () => {
         <Card id="footer-supreme" className="bg-red text-white mt-4 py-4">
             <Container className="bg-red">
                 <Row className="text-center">
-                    <Col xs={7} sm={6} lg={3} className="d-flex font-Lato">
+                    <Col xs={9} sm={6} lg={3} className="d-flex font-Lato">
                         <Container className="align-self-center">
                             <p id="footerTag"><Link to={`/`} className="navbar-brand text-white"><strong><FaBookReader id="footer-Icon"/> Proverbial Wisdom</strong></Link></p>
                         </Container>
@@ -18,7 +18,7 @@ const FooterPage = () => {
                     <Col xs={3} className="d-flex d-none d-lg-block">
                         <span className="align-self-center">Proverbial Wisdom is a full-stack project devoted to showcasing my newfound web development skills, utilizing MERN style structuring (MongoDB, Express, React, and NodeJS).</span>
                     </Col>
-                    <Col xs={5} sm={6}>
+                    <Col xs={3} sm={6}>
                         <Row>
                             <Col xs={12} md={6} className="mb-3">
                                 Site
