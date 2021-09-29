@@ -21,7 +21,7 @@ const handleOnClick = () => {
 
 function Button({ input }) {
     if(!input) return (null)
-    else return (<span className="shareButton mx-2" id="mobile-share" title="Share" onClick={handleOnClick}><FaArrowAltCircleUp/></span>)
+    else return (<button className="shareButton mx-2" id="mobile-share" title="Share" onClick={handleOnClick}><FaArrowAltCircleUp/></button>)
 }
 
 export default Button;
