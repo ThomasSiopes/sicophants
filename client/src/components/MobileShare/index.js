@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import "../../assets/css/index.css";
 import { FaArrowAltCircleUp } from "react-icons/fa";
 
 const handleOnClick = () => {
@@ -20,7 +21,7 @@ const handleOnClick = () => {
 
 function Button({ input }) {
     if(!input) return (null)
-    else return (<button className="shareButton mx-2" id="mobile-share" onClick={handleOnClick}><FaArrowAltCircleUp/></button>)
+    else return (<span className="shareButton mx-2" id="mobile-share" title="Share" onClick={handleOnClick}><FaArrowAltCircleUp/></span>)
 }
 
 export default Button;
