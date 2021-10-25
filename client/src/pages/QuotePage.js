@@ -61,10 +61,10 @@ function QuotePage() {
             <div className="wrapper">
                 <MetaTags>
                     <title>PW - {quote.authorName} - {quote.quoteText}</title>
-                    <meta name="twitter:card" content="summary"></meta>
-                    <meta name="twitter:title" content="Proverbial Wisdom"></meta>
-                    <meta name="twitter:site" content="@proverbial"></meta>
-                    <meta name="twitter:url" content={window.location.href}></meta>
+                    <meta name="twitter:card" content="summary"/>
+                    <meta name="twitter:title" content="Proverbial Wisdom"/>
+                    <meta name="twitter:site" content="@proverbial"/>
+                    <meta name="twitter:url" content={window.location.href}/>
 
                     <meta property="og:title" content="Proverbial Wisdom"/>
                     <meta property="og:url" content={window.location.href}/>
