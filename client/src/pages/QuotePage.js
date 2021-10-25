@@ -6,7 +6,7 @@ import { FaTwitterSquare, FaFacebookSquare, FaRedditSquare } from "react-icons/f
 import "../assets/css/index.css";
 import TopicButton from "../components/TopicButton";
 import AuthorButton from "../components/AuthorButton";
-import MobileButton from "../components/MobileShare";
+// import MobileButton from "../components/MobileShare";
 
 import { QUERY_QUOTE_ID, QUERY_AUTHOR_NAME } from '../utils/queries';
 
@@ -53,8 +53,6 @@ function QuotePage() {
         } while(!pass)
         quoteList.push(randomQuote);
     }
-
-    // if(!loading && !data && (quote.authorName === null && !quote.quoteText)) return (<Redirect to={`/404error`}/>)
     
     return (
         <Container className="auttopBody mt-3">
@@ -76,7 +74,6 @@ function QuotePage() {
                             <a href={`https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`} className="shareButton mx-2" id="share-fb" title="Share on Facebook"><FaFacebookSquare/></a>
                             <a href={`https://twitter.com/intent/tweet?url=${window.location.href}`} className="shareButton mx-2" id="share-t" title="Share on Twitter"><FaTwitterSquare/></a>
                             <a href={`https://www.reddit.com/submit?url=${window.location.href}`} className="shareButton mx-2" id="share-r" title="Share on Reddit"><FaRedditSquare/></a>
-                            <MobileButton input={window.mobileAndTabletCheck()}/>
                         </Card.Body>
                         <Card.Footer className="text-center">
                             {quote.topics.map((topic) => (

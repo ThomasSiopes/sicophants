@@ -14,7 +14,7 @@ const handleOnClick = () => {
             console.log('Successfully shared');
           })
           .catch(error => {
-            console.error('Something went wrong sharing the blog', error);
+            console.error('Something went wrong...', error);
           });
       }
 }
