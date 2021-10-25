@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, } from 'react-router-dom';
 import { Container, Row, Col } from "react-bootstrap";
+import MetaTags from "react-meta-tags";
 import "../assets/css/index.css";
 
 import QuoteRandom from "../components/QuoteRandom";
@@ -9,6 +10,18 @@ import QuoteRandomQuote from "../components/QuoteRandomQuote";
 function Main() {
     return (
         <Container>
+            <div className="wrapper">
+                <MetaTags>
+                    <title>Proverbial Wisdom</title>
+                    <meta name="twitter:card" content="summary"></meta>
+                    <meta name="twitter:title" content="Proverbial Wisdom"></meta>
+                    <meta name="twitter:site" content="@proverbial"></meta>
+
+                    <meta property="og:title" content="Proverbial Wisdom"/>
+                    <meta property="og:url" content={window.location.href}/>
+                    <meta property="og:type" content="website"/>
+                </MetaTags>
+            </div>
             <Row className="mt-3 py-3 auttopBody">
                 <Col className="text-center">
                     <h3>Proverbial Wisdom Homepage</h3>

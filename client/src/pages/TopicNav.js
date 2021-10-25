@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useQuery } from '@apollo/client';
 import { Container, Row, Col } from "react-bootstrap"
+import MetaTags from "react-meta-tags";
 
 import { QUERY_TOPIC_ALL } from '../utils/queries';
 
@@ -32,6 +33,18 @@ function TopicNav() {
 
     return (
         <Container className="auttopBody">
+            <div className="wrapper">
+                <MetaTags>
+                    <title>PW - Topics</title>
+                    <meta name="twitter:card" content="summary"></meta>
+                    <meta name="twitter:title" content="Proverbial Wisdom"></meta>
+                    <meta name="twitter:site" content="@proverbial"></meta>
+
+                    <meta property="og:title" content="Proverbial Wisdom"/>
+                    <meta property="og:url" content={window.location.href}/>
+                    <meta property="og:type" content="website"/>
+                </MetaTags>
+            </div>
             <p>
                 <Link className="breadCrumb redText" to={`/`}>Home</Link>{` > `}
                 <Link className="breadCrumb redText" to={`/topicNavigation`}>Topics</Link>

@@ -1,8 +1,9 @@
 import React from "react";
 import { Link, Redirect, useParams } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
-import { Container } from "react-bootstrap"
-import "../assets/css/index.css"
+import MetaTags from "react-meta-tags";
+import { Container } from "react-bootstrap";
+import "../assets/css/index.css";
 
 import { QUERY_AUTHOR_ID } from '../utils/queries';
 
@@ -27,6 +28,18 @@ function AuthorPage() {
     
     return (
         <div>
+            <div className="wrapper">
+                <MetaTags>
+                    <title>PW - {author.name}</title>
+                    <meta name="twitter:card" content="summary"></meta>
+                    <meta name="twitter:title" content="Proverbial Wisdom"></meta>
+                    <meta name="twitter:site" content="@proverbial"></meta>
+
+                    <meta property="og:title" content="Proverbial Wisdom"/>
+                    <meta property="og:url" content={window.location.href}/>
+                    <meta property="og:type" content="website"/>
+                </MetaTags>
+            </div>
             <Container className="auttopBody">
                 <p>
                     <Link className="breadCrumb redText" to={`/`}>Home</Link>{` > `}

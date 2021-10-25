@@ -1,9 +1,11 @@
 import React from "react";
-import { Link, Redirect, useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 import { Container, Row, Card, Col } from "react-bootstrap"
+import MetaTags from "react-meta-tags";
 import { FaTwitterSquare, FaFacebookSquare, FaRedditSquare } from "react-icons/fa";
 import "../assets/css/index.css";
+
 import TopicButton from "../components/TopicButton";
 import AuthorButton from "../components/AuthorButton";
 // import MobileButton from "../components/MobileShare";
@@ -56,6 +58,18 @@ function QuotePage() {
     
     return (
         <Container className="auttopBody mt-3">
+            <div className="wrapper">
+                <MetaTags>
+                    <title>PW - {quote.authorName} - {quote.quoteText}</title>
+                    <meta name="twitter:card" content="summary"></meta>
+                    <meta name="twitter:title" content="Proverbial Wisdom"></meta>
+                    <meta name="twitter:site" content="@proverbial"></meta>
+
+                    <meta property="og:title" content="Proverbial Wisdom"/>
+                    <meta property="og:url" content={window.location.href}/>
+                    <meta property="og:type" content="website"/>
+                </MetaTags>
+            </div>
             <Row className="mb-3">
                 <Col>
                     <Link to={`/`} className="redText breadCrumb">Home</Link>
