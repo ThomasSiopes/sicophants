@@ -39,6 +39,8 @@ function AuthorNav() {
                     <meta name="twitter:card" content="summary"/>
                     <meta name="twitter:title" content="Proverbial Wisdom"/>
                     <meta name="twitter:site" content="@proverbial"/>
+                    <meta name="twitter:description" content="A collection of proverbial quotes!"/>
+                    <meta name="twitter:image" content="/assets/images/proverbial_icon.png"/>
                     <meta name="twitter:url" content={window.location.href}/>
 
                     <meta property="og:title" content="Proverbial Wisdom"/>

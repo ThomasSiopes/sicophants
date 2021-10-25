@@ -35,6 +35,8 @@ function AuthorPage() {
                     <meta name="twitter:title" content="Proverbial Wisdom"/>
                     <meta name="twitter:site" content="@proverbial"/>
                     <meta name="twitter:url" content={window.location.href}/>
+                    <meta name="twitter:description" content="A collection of proverbial quotes!"/>
+                    <meta name="twitter:image" content="/assets/images/proverbial_icon.png"/>
 
                     <meta property="og:title" content="Proverbial Wisdom"/>
                     <meta property="og:url" content={window.location.href}/>
