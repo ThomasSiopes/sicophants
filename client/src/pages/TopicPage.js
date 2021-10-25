@@ -41,6 +41,7 @@ function TopicPage() {
                     <meta property="og:title" content="Proverbial Wisdom"/>
                     <meta property="og:url" content={window.location.href}/>
                     <meta property="og:type" content="website"/>
+                    <meta property="og:image" content="/assets/images/proverbial_icon.png"/>
                 </MetaTags>
             </div>
             <Container className="auttopBody">

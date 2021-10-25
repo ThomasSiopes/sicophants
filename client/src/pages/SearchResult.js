@@ -27,6 +27,7 @@ function SearchResults() {
                     <meta property="og:title" content="Proverbial Wisdom"/>
                     <meta property="og:url" content={window.location.href}/>
                     <meta property="og:type" content="website"/>
+                    <meta property="og:image" content="/assets/images/proverbial_icon.png"/>
                 </MetaTags>
             </div>
             <div className="mb-3"><Link className="breadCrumb redText" to={`/`}>Home</Link> {`>`} Search {`>`} Showing results for "{query}"</div>
