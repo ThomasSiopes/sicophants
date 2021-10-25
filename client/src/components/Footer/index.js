@@ -31,7 +31,8 @@ const FooterPage = () => {
                             </Col>
                             <hr className="d-xs-block d-md-none"/>
                             <Col xs={12} md={6}>
-                                Contact Information
+                                <span className="d-block d-sm-none">Contact Info</span>
+                                <span className="d-none d-sm-block">Contact Information</span>
                                 <hr></hr>
                                 <i>
                                 <p><a className="noDecor text-white" href="https://github.com/ThomasSiopes">GitHub</a></p>

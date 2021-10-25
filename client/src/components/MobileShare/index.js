@@ -21,7 +21,11 @@ const handleOnClick = () => {
 
 function Button({ input }) {
     if(!input) return (null)
-    else return (<button className="shareButton mx-2" id="mobile-share" title="Share" onClick={handleOnClick}><FaArrowAltCircleUp/></button>)
+    else {
+      let mobileButton = document.getElementById("#mobile-share");
+      if(mobileButton) mobileButton.addEventListener("click", handleOnClick());
+      return (<button className="shareButton mx-2" id="mobile-share" title="Share"><FaArrowAltCircleUp/></button>)
+    }
 }
 
 export default Button;
