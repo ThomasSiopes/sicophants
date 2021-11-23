@@ -45,6 +45,12 @@ body {
     text-decoration: none;
 }
 
+.countryBG {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
 .font-Lato {
     font-family: 'Lato', sans-serif;
 }
@@ -102,12 +108,24 @@ body {
     color: #3A589E;
 }
 
+#share-fb:hover {
+    color: #1A387E;
+}
+
 #share-t {
     color: #1C9FEF;
 }
 
+#share-t:hover {
+    color: #0C7FCF;
+}
+
 #share-r {
     color: #FF4300;
+}
+
+#share-r:hover {
+    color: #DF2300;
 }
 
 .whiteText {

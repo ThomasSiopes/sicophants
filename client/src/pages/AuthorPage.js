@@ -25,6 +25,7 @@ function AuthorPage() {
     if(!data) return (<Redirect to={`/404error`}/>);
 
     const author = data.authorID;
+    let testString = "url(/assets/images/countries/" + author.name.replace(/\s/g, '') + ".png)";
     
     return (
         <div>
@@ -44,7 +45,7 @@ function AuthorPage() {
                     <meta property="og:image" content="/assets/images/proverbial_icon.png"/>
                 </MetaTags>
             </div>
-            <Container className="auttopBody">
+            <Container className="auttopBody countryBG" style={{backgroundImage: testString}}>
                 <p>
                     <Link className="breadCrumb redText" to={`/`}>Home</Link>{` > `}
                     <Link className="breadCrumb redText" to={`/authorNavigation`}>Authors</Link>{` > `}

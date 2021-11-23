@@ -8,9 +8,10 @@ import "../assets/css/index.css";
 
 import TopicButton from "../components/TopicButton";
 import AuthorButton from "../components/AuthorButton";
+import MoreQuotesBy from "../components/MoreQuotesBy";
 // import MobileButton from "../components/MobileShare";
 
-import { QUERY_QUOTE_ID, QUERY_AUTHOR_NAME } from '../utils/queries';
+import { QUERY_QUOTE_ID } from '../utils/queries';
 
 window.mobileAndTabletCheck = function() {
     let check = false;
@@ -22,39 +23,17 @@ window.mobileAndTabletCheck = function() {
 };
 
 function QuotePage() {
-    // query targets are initialized as null objects to avoid loading errors
-    let quote = {authorName: null, topics: ["null"]}, author = {_id: 1, quotes: []};
-    let quoteList = [], randomQuote, pass;
+    let quote;
     const { quoteId } = useParams();
 
-    let { loading, data } = useQuery(QUERY_QUOTE_ID, {
-        variables: { quoteId: quoteId },
+    const { data, loading } = useQuery(QUERY_QUOTE_ID, {
+        variables: { quoteId },
     });
 
-    if(!loading && data) quote = data.quoteID;
+    if(loading) return <p>Loading...</p>
 
-    ({loading, data} = useQuery(QUERY_AUTHOR_NAME, {
-        variables: { name: quote.authorName},
-    }));
-
-    if(!loading && data) author = data.authorName;
-
-    if(loading) {
-        return <div className="loadingPage">Loading...</div>;
-    }
-
-    for(let i = 0; ((i < 3) && (i < author.quotes.length)); ++i) {
-        do {
-            pass = 1;
-            randomQuote = author.quotes[Math.floor(Math.random() * author.quotes.length)]
-            for(let index of quoteList) {
-                if(index === randomQuote) {
-                    pass = 0;
-                }
-            }
-        } while(!pass)
-        quoteList.push(randomQuote);
-    }
+    quote = data.quoteID;
+    let testString = "url(/assets/images/countries/" + quote.authorName.replace(/\s/g, '') + ".png)";
     
     return (
         <Container className="auttopBody mt-3">
@@ -82,37 +61,30 @@ function QuotePage() {
             <Row>
                 <Col xs={12} md={8} className="mb-3">
                     <Card>
-                        <Card.Body>
-                            <Card.Text className="bigQuote font-Kaisei">
-                                "{quote.quoteText}"
-                            </Card.Text>
-                                <AuthorButton key={quote.authorName} input={quote.authorName}></AuthorButton>
-                        </Card.Body>
-                        <Card.Body className="text-center">
-                            <a href={`https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`} className="shareButton mx-2" id="share-fb" title="Share on Facebook"><FaFacebookSquare/></a>
-                            <a href={`https://twitter.com/intent/tweet?url=${window.location.href}`} className="shareButton mx-2" id="share-t" title="Share on Twitter"><FaTwitterSquare/></a>
-                            <a href={`https://www.reddit.com/submit?url=${window.location.href}`} className="shareButton mx-2" id="share-r" title="Share on Reddit"><FaRedditSquare/></a>
-                        </Card.Body>
-                        <Card.Footer className="text-center">
-                            {quote.topics.map((topic) => (
-                                <TopicButton key={topic} input={topic}></TopicButton>
-                            ))}
-                        </Card.Footer>
+                        <div className="countryBG" style={{backgroundImage: testString}}>
+                            <Card.Body>
+                                <Card.Text className="bigQuote font-Kaisei">
+                                    "{quote.quoteText}"
+                                </Card.Text>
+                                    <AuthorButton key={quote.authorName} input={quote.authorName}></AuthorButton>
+                            </Card.Body>
+                            <Card.Body className="text-center">
+                                <a href={`https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`} className="shareButton mx-2" id="share-fb" title="Share on Facebook"><FaFacebookSquare/></a>
+                                <a href={`https://twitter.com/intent/tweet?url=${window.location.href}`} className="shareButton mx-2" id="share-t" title="Share on Twitter"><FaTwitterSquare/></a>
+                                <a href={`https://www.reddit.com/submit?url=${window.location.href}`} className="shareButton mx-2" id="share-r" title="Share on Reddit"><FaRedditSquare/></a>
+                            </Card.Body>
+                        </div>
+                        {quote.topics[0] &&
+                            <Card.Footer className="text-center">
+                                {quote.topics.map((topic) => (
+                                    <TopicButton key={topic} input={topic}></TopicButton>
+                                ))}
+                            </Card.Footer>
+                        }
                     </Card>
                 </Col>
                 <Col>
-                    <Card>
-                        <Card.Header>
-                            Assorted quotes attributed to {quote.authorName}
-                        </Card.Header>
-                        <Card.Body>
-                            {quoteList.map((newQuote) => (
-                                <p key={newQuote.quoteText} className="font-Kaisei">
-                                    <Link to={`/quote/${newQuote._id}`} className="redText breadCrumb">"{newQuote.quoteText}"</Link>
-                                </p>
-                            ))}
-                        </Card.Body>
-                    </Card>
+                    <MoreQuotesBy parent={quote}/>
                 </Col>
             </Row>
         </Container>

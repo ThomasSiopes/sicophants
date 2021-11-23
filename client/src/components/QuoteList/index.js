@@ -24,11 +24,13 @@ const QuoteList = ({quotes}) => {
                             <Card.Body>
                                 <AuthorButton key={quote.authorName} input={quote.authorName}></AuthorButton>
                             </Card.Body>
-                            <Card.Footer className={"text-center"}>
-                                {quote.topics.map((topic) => (
-                                    <TopicButton key={topic} input={topic}></TopicButton>
-                                ))}
-                            </Card.Footer>
+                            { quote.topics[0] &&
+                                <Card.Footer className={"text-center"}>
+                                    {quote.topics.map((topic) => (
+                                        <TopicButton key={topic} input={topic}></TopicButton>
+                                    ))}
+                                </Card.Footer>
+                            }
                         </Card>
                     </Col>
                 ))}

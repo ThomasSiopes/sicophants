@@ -7,6 +7,22 @@ import AuthorButton from '../AuthorButton';
 
 import { QUERY_QUOTES_ALL } from '../../utils/queries';
 
+const QuoteCard = (input) => {
+    const quote = input.input;
+    const testPath = "url(/assets/images/countries/" + quote.authorName.replace(/\s/g, '') + ".png)";
+    
+    return (
+        <Card className="mb-2">
+            <Link className="noDecor font-Kaisei" to={`/quote/${quote._id}`}>
+                <Card.Body className="countryBG" style={{backgroundImage: testPath}}>"{quote.quoteText}"</Card.Body>
+            </Link>
+            <Card.Footer>
+                <AuthorButton input={quote.authorName}></AuthorButton>
+            </Card.Footer>
+        </Card>
+    )
+}
+
 const QuoteRandomQuote = ({amount}) => {
     let quoteList, scatterList = [], randArr = [], randomNum, pass = 0;
     amount = parseInt(amount);
@@ -34,16 +50,9 @@ const QuoteRandomQuote = ({amount}) => {
     }
 
     return (
-        <div>
+        <div className="px-2">
             {scatterList.map((index) => (                 
-                <Card key={index.quoteText} className="mb-2">
-                    <Link className="noDecor font-Kaisei" to={`/quote/${index._id}`}>
-                        <Card.Body>"{index.quoteText}"</Card.Body>
-                    </Link>
-                    <Card.Footer>
-                        <AuthorButton key={index.authorName} input={index.authorName}></AuthorButton>
-                    </Card.Footer>
-                </Card>
+                <QuoteCard input={index} key={index.quoteText}/>
             ))}
         </div>
     )

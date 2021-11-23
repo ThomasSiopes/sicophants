@@ -6,6 +6,7 @@ import "../assets/css/index.css";
 
 import QuoteRandom from "../components/QuoteRandom";
 import QuoteRandomQuote from "../components/QuoteRandomQuote";
+import CountryCarousel from "../components/CountryCarousel";
 
 function Main() {
     return (
@@ -32,7 +33,7 @@ function Main() {
                 </Col>
             </Row>
             <Row className="mt-3 text-center">
-                <Col xs={12} md={8} className="auttopBody mb-2 me-3">
+                <Col xs={12} md={7} className="auttopBody mb-3 me-3">
                     <Row>
                         <Col xs={6}>
                             <p>Popular Authors</p>
@@ -48,10 +49,15 @@ function Main() {
                         </Col>
                     </Row>
                 </Col>
-                <Col className="auttopBody mb-2">
-                    <p>Random Quotes</p>
-                    <hr></hr>
-                    <QuoteRandomQuote amount="3"/>
+                <Col className="pe-0">
+                    <div className="auttopBody mt-0 mb-3 pb-2">
+                        <p>Random Quotes</p>
+                        <hr></hr>
+                        <QuoteRandomQuote amount="3"/>
+                    </div>
+                    <div>
+                    <CountryCarousel/>    
+                    </div>    
                 </Col>
             </Row>
         </Container>
