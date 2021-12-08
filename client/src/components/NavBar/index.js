@@ -36,13 +36,15 @@ import { FaBookReader } from "react-icons/fa";
                         </Link>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="me-auto">
+                            <Nav className="me-auto text-center">
                                 <Link className="nav-link" to={`/`}><strong>Home</strong></Link>
                                 <Link className="nav-link" to={`/authorNavigation`}><strong>Authors</strong></Link>
                                 <Link className="nav-link" to={`/topicNavigation`}><strong>Topics</strong></Link>
+                            </Nav>
+                            <Nav className="ms-auto text-center">
                                 <Form onSubmit={this.handleSubmit}>
                                     <input type="text" id="searchTerm" placeholder="Search..." className="me-2 my-2" onChange={this.handleChange}></input>
-                                    <input type="submit" value="Submit"></input>
+                                    <input type="submit" className="btn btn-red mb-2" value="Submit"></input>
                                 </Form>
                             </Nav>
                         </Navbar.Collapse>

@@ -10,7 +10,7 @@ const FooterPage = () => {
         <Card id="footer-supreme" className="bg-red text-white mt-4 py-4">
             <Container className="bg-red">
                 <Row className="text-center align-items-center">
-                    <Col md={6} lg={3} className="d-flex font-Lato">
+                    <Col md={7} lg={3} className="d-flex font-Lato">
                         <Container>
                             <p id="footerTag">
                                 <Link to={`/`} className="noDecor text-white">
@@ -25,7 +25,7 @@ const FooterPage = () => {
                     <Col className="d-none d-lg-block">
                         <p>Proverbial Wisdom is a full-stack project devoted to showcasing my newfound web development skills, utilizing MERN style structuring (MongoDB, Express, React, and NodeJS).</p>
                     </Col>
-                    <Col md={6}>
+                    <Col md={5}>
                         <Row>
                             <Col xs={12} md={6} className="mb-3">
                                 Site
