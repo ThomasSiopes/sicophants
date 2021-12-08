@@ -30,18 +30,21 @@ import { FaBookReader } from "react-icons/fa";
             return (
                 <Navbar bg="red" variant="dark" expand="md" className="font-Lato">
                     <Container>
-                        <Link className="navbar-brand" to={`/`}><FaBookReader id="nav-Icon"/><strong>PROVERBIAL WISDOM</strong></Link>
+                        <Link className="navbar-brand" to={`/`}>
+                            <FaBookReader id="nav-Icon"/>
+                            <span><strong>PROVERBIAL WISDOM</strong></span>
+                        </Link>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
-                            <Link className="nav-link" to={`/`}><strong>Home</strong></Link>
-                            <Link className="nav-link" to={`/authorNavigation`}><strong>Authors</strong></Link>
-                            <Link className="nav-link" to={`/topicNavigation`}><strong>Topics</strong></Link>
-                        </Nav>
-                        <Form onSubmit={this.handleSubmit}>
-                            <input type="text" id="searchTerm" placeholder="Search..." className="me-2 my-2" onChange={this.handleChange}></input>
-                            <input type="submit" value="Submit"></input>
-                        </Form>
+                            <Nav className="me-auto">
+                                <Link className="nav-link" to={`/`}><strong>Home</strong></Link>
+                                <Link className="nav-link" to={`/authorNavigation`}><strong>Authors</strong></Link>
+                                <Link className="nav-link" to={`/topicNavigation`}><strong>Topics</strong></Link>
+                                <Form onSubmit={this.handleSubmit}>
+                                    <input type="text" id="searchTerm" placeholder="Search..." className="me-2 my-2" onChange={this.handleChange}></input>
+                                    <input type="submit" value="Submit"></input>
+                                </Form>
+                            </Nav>
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>

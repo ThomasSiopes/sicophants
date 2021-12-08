@@ -9,16 +9,23 @@ const FooterPage = () => {
     return (
         <Card id="footer-supreme" className="bg-red text-white mt-4 py-4">
             <Container className="bg-red">
-                <Row className="text-center">
-                    <Col xs={9} sm={6} lg={3} className="d-flex font-Lato">
-                        <Container className="align-self-center">
-                            <p id="footerTag"><Link to={`/`} className="navbar-brand text-white"><strong><FaBookReader id="footer-Icon"/> Proverbial Wisdom</strong></Link></p>
+                <Row className="text-center align-items-center">
+                    <Col md={6} lg={3} className="d-flex font-Lato">
+                        <Container>
+                            <p id="footerTag">
+                                <Link to={`/`} className="noDecor text-white">
+                                    <strong>
+                                        <FaBookReader id="footer-Icon" className="mx-2"/> 
+                                        <span className="d-none d-md-inline font-lato">Proverbial Wisdom</span>
+                                    </strong>
+                                </Link>
+                            </p>
                         </Container>
                     </Col>
-                    <Col xs={3} className="d-flex d-none d-lg-block">
-                        <span className="align-self-center">Proverbial Wisdom is a full-stack project devoted to showcasing my newfound web development skills, utilizing MERN style structuring (MongoDB, Express, React, and NodeJS).</span>
+                    <Col className="d-none d-lg-block">
+                        <p>Proverbial Wisdom is a full-stack project devoted to showcasing my newfound web development skills, utilizing MERN style structuring (MongoDB, Express, React, and NodeJS).</p>
                     </Col>
-                    <Col xs={3} sm={6}>
+                    <Col md={6}>
                         <Row>
                             <Col xs={12} md={6} className="mb-3">
                                 Site

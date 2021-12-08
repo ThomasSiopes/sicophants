@@ -29,7 +29,7 @@ function Main() {
             </div>
             <Row className="mt-3 py-3 auttopBody">
                 <Col className="text-center">
-                    <h3>Proverbial Wisdom Homepage</h3>
+                    <h3 className="mb-0">Proverbial Wisdom Homepage</h3>
                 </Col>
             </Row>
             <Row className="mt-3 text-center">
@@ -38,18 +38,18 @@ function Main() {
                         <Col xs={6}>
                             <p>Popular Authors</p>
                             <hr></hr>
-                            <QuoteRandom classif="author" amount="10"/>
+                            <QuoteRandom classif="author" amount="12"/>
                             <Link className="btn btn-red" to={`/authorNavigation`}>All Authors</Link>
                         </Col>
                         <Col xs={6}>
                             <p>Popular Topics</p>
                             <hr></hr>
-                            <QuoteRandom classif="topic" amount="10"/>
+                            <QuoteRandom classif="topic" amount="12"/>
                             <Link className="btn btn-red" to={`/topicNavigation`}>All Topics</Link>
                         </Col>
                     </Row>
                 </Col>
-                <Col className="pe-0">
+                <Col className="px-0">
                     <div className="auttopBody mt-0 mb-3 pb-2">
                         <p>Random Quotes</p>
                         <hr></hr>
